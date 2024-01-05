@@ -99,7 +99,6 @@ nav {
 nav li:before {
     content: "❥";
     padding-right: 5px;
-    vertical-align: middle;
 }
 
 
