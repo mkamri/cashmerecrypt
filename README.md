@@ -1,9 +1,9 @@
-# about this project
+# About this project
 A personal site built the old-fashioned way. 
 
-**Link to project:** https://cashmerecrypt.art/
+**view site here:** https://cashmerecrypt.art/
 
-## how it's made:
+## How it's made:
 
 **Tech used:** HTML, CSS, PHP
 
