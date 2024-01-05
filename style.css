@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Pixel Operator Mono'; 
+    src: url('/fonts/PixelOperatorMono.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Pixel Operator Mono Bold'; 
+    src: url('/fonts/PixelOperatorMono-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Cthulhumbus Arcade'; 
+    src: url('/fonts/JMHCthulhumbusArcadeUG.ttf') format('truetype');
+}
+
+:root {
+    --spacing: .5rem;
+}
+
+html {
+    background-color: #2b2b2b;
+}
+
+body {
+    font-family: 'Pixel Operator Mono', monospace;
+    max-width: 768px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0.07em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+time {
+    font-family: 'Pixel Operator Mono Bold', monospace;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+a {
+    font-family: 'Pixel Operator Mono Bold', monospace;
+    color: #9c302a;
+    text-decoration: none;
+}
+
+li {
+    line-height: 1rem;
+    padding-left: 1em;
+    text-indent: -1em;
+    vertical-align: middle;
+}
+
+ul > * + * {
+    margin-top: .75rem;
+}
+
+header {
+    background-color: #000000;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Cthulhumbus Arcade';
+    font-size: 3rem;
+}
+
+header figure {
+    display: block;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: var(--spacing);
+    margin-top: var(--spacing);
+}
+
+main > * + *,
+#side-panel > * + * {
+    margin-top: var(--spacing);
+}
+
+section,
+nav {
+    background-color: #000000;
+    padding: 1rem;
+}
+
+nav li:before {
+    content: "❥";
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+
+footer {
+    background-color: #000000;
+    padding: .25rem;
+    margin-top: var(--spacing);
+    text-align: center;
+}
