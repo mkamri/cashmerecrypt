@@ -91,7 +91,8 @@ main > * + *,
 }
 
 section,
-nav {
+nav,
+article {
     background-color: #000000;
     padding: 1rem;
 }
@@ -101,10 +102,29 @@ nav li:before {
     padding-right: 5px;
 }
 
-
 footer {
     background-color: #000000;
     padding: .25rem;
     margin-top: var(--spacing);
     text-align: center;
+}
+
+/**
+ * BLOG
+ */
+
+article {
+    line-height: 1.5;
+}
+
+article ul,
+article ol {
+    margin-left: 1rem;
+}
+article ul li:before {
+    content: "❥";
+    padding-right: 5px;
+}
+article li {
+    margin: .5rem;
 }
