@@ -84,6 +84,26 @@ header figure {
     grid-gap: var(--spacing);
     margin-top: var(--spacing);
 }
+/* media queries for mobile site layout */
+@media screen and (max-width: 768px) {
+    #container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #side-panel {
+        grid-row-start: 1;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav ul > * + * {
+        margin-top: 0;
+        margin-left: 1.25rem;
+    }
+    #status {
+        display: none;
+    }
+}
 
 main > * + *,
 #side-panel > * + * {
@@ -127,4 +147,18 @@ article ul li:before {
 }
 article li {
     margin: .5rem;
+}
+
+/**
+ * ARTWORK
+ */
+.artwork-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: var(--spacing);
+}
+
+.artwork-thumb {
+    width: 100%;
+    aspect-ratio: 1/1;
 }
