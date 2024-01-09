@@ -16,6 +16,8 @@
 <main>
     <section id="art">
         <h1>My Art</h1>
+        <p>This is a little gallery of artwork that I have made. I love to create art with a gothic or fantasy theme.</p>
+        <p>Click on a thumbnail to view the full work!</p>
     </section>
     <?php foreach($artworks as $year => $works): ?>
         <section>
