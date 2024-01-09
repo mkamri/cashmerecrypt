@@ -1,21 +1,25 @@
 {
     "2023": {
         "cat.jpg": {
+            "id": 4,
             "title": "In Her Image",
             "alt": "A small black cat in a great forest. The shadow of a giant cat goddess towers over her. She seems unphased.",
             "description": "Watercolor on paper"
         },
         "shadow-person.jpg": {
+            "id": 3,
             "title": "Looming Shadow",
             "alt": "A dark room. An open door. A looming shadow-person in the light.",
             "description": "Watercolor on paper"
         },
         "graveyard.jpg": {
+            "id": 2,
             "title": "As Above, So Below",
             "alt": "A sprawling tree climbs into the sky. At its roots, tombstones fertilize its life force.",
             "description": "Watercolor on paper"
         },
         "bridge.jpg": {
+            "id": 1,
             "title": "Bridge",
             "alt": "You stand under a bridge, looking out onto a path leading somewhere in a dark forest. Streetlamps light your way.",
             "description": "Pencil on paper"
