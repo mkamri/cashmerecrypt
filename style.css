@@ -198,15 +198,15 @@ article li {
 }
 
 #art-gallery {
-    width: 1000px;
     width: 90vw;
+    height: auto;
     max-width: 768px;
     max-height: 90vh;
 }
 
 .artwork-gallery {
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     object-fit: scale-down;
 }
 
@@ -223,10 +223,6 @@ article li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.gallery-slide {
-    display: none;
 }
 
 .gallery-nav button:disabled {

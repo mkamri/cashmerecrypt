@@ -13,7 +13,7 @@
         <h1>latest</h1>
         <p>
             <time datetime="2024-01-04">1/8/2024</time>: 
-            Add <a href="/blog">blog section and first blog post</a>. Make layout mobile friendly. Add <a href="/art">art gallery</a>.
+            Add <a href="/blog">blog section</a> and first blog post. Make layout mobile friendly. Add <a href="/gallery">art gallery</a>.
         </p>
         <p>
             <time datetime="2024-01-04">1/4/2024</time>: 
