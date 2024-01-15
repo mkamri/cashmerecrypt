@@ -12,7 +12,11 @@
     <section id="latest">
         <h1>latest</h1>
         <p>
-            <time datetime="2024-01-04">1/8/2024</time>: 
+            <time datetime="2024-01-14">1/14/2024</time>: 
+            Add <a href="/links">links</a> and a button that I designed for my site.
+        </p>
+        <p>
+            <time datetime="2024-01-08">1/8/2024</time>: 
             Add <a href="/blog">blog section</a> and first blog post. Make layout mobile friendly. Add <a href="/gallery">art gallery</a>.
         </p>
         <p>
