@@ -40,6 +40,21 @@ time {
     font-weight: 700;
 }
 
+h1 {
+    font-size: 1.5rem;
+}
+h2 {
+    font-size: 1.25rem;
+}
+h3 {
+    font-size: 1.1rem;
+}
+
+p {
+    margin-top: 0;
+    line-height: 1.5;
+}
+
 ul {
     list-style: none;
     margin-left: 0;
@@ -48,8 +63,12 @@ ul {
 
 a {
     font-family: 'Pixel Operator Mono Bold', monospace;
-    color: #9c302a;
+    color: #bb4039;
     text-decoration: none;
+    transition: color .2s ease-in;
+}
+a:hover {
+    color: #8d211c;
 }
 
 li {
@@ -136,6 +155,10 @@ footer {
     margin-top: var(--spacing);
     text-align: center;
 }
+footer p {
+    padding: 1rem;
+    margin: 0;
+}
 
 dialog {
     z-index: 50;
@@ -165,10 +188,6 @@ section #button-container * {
 /**
  * BLOG
  */
-
-article {
-    line-height: 1.5;
-}
 
 article ul,
 article ol {
@@ -237,4 +256,41 @@ article li {
 .gallery-nav button:disabled {
     opacity: .3;
     cursor: default;
+}
+
+#egl-collection--nav {
+    display: flex;
+}
+.egl-collection--nav-img {
+    object-fit: scale-down;
+    width: 100%;
+}
+#egl-collection--nav a
+{
+    display: block;
+}
+#egl-collection--nav a:not(:last-child)
+{
+    margin-right: 1rem;
+}
+
+.wardrobe-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: var(--spacing);
+    width: 100%;
+}
+.wardrobe-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.wardrobe-item img {
+    object-fit: scale-down;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }

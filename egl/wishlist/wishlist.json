@@ -1,0 +1,254 @@
+{
+    "main pieces": {
+        "pieces": {
+            "Velveteen Hem Scallop Skirt": {
+                "brand": "BtSSB",
+                "year": 2005,
+                "lolibrary": "https://lolibrary.org/items/btssb-velveteen-hem-scallop-skirt-2005",
+                "img": "/img/wardrobe/main/wishlist/velveteen-hem-scallop.jpeg",
+                "aspectratio": "1/1"
+            },
+            "Velveteen Skirt with Cummberbund Belt": {
+                "brand": "BtSSB",
+                "year": 2003,
+                "lolibrary": "https://lolibrary.org/items/btssb-velveteen-skirt-with-cummerbund-belt",
+                "img": "/img/wardrobe/main/wishlist/velveteen-cummberbund.jpeg",
+                "aspectratio": "1/1"
+            },
+            "Heart Pocket JSK": {
+                "brand": "Angelic Pretty",
+                "year": 2006,
+                "lolibrary": "https://lolibrary.org/items/ap-lace-up-heart-pockets-jsk",
+                "img": "/img/wardrobe/main/wishlist/heart-pocket-jsk.jpeg",
+                "aspectratio": "3/4"
+            },
+            "Lily Lace JSK": {
+                "brand": "Moi Meme Moitie",
+                "year": 2022,
+                "lolibrary": "https://lolibrary.org/items/moitie-lily-lace-jsk",
+                "img": "/img/wardrobe/main/wishlist/lily-lace-jsk.png",
+                "aspectratio": "3/4"
+            }
+        }
+    },
+    "blouses": {
+        "pieces": {
+            "Reverse Cross Lace Puff Sleeve Blouse": {
+                "brand": "Moi Meme Moitie",
+                "year": 2023,
+                "lolibrary": "https://lolibrary.org/items/moitie-inverted-cross-lace-puff-sleeve-blouse",
+                "img": "/img/wardrobe/blouses/wishlist/reverse-cross-lace.jpeg",
+                "aspectratio": "1/1"
+            },
+            "Rose and Princess Drop Lace Cutsew": {
+                "brand": "BtSSB",
+                "year": 2008,
+                "lolibrary": "https://lolibrary.org/items/btssb-square-neck-collar-short-sleeve-cutsew",
+                "img": "/img/wardrobe/blouses/wishlist/rose-and-princess-drop.jpeg",
+                "aspectratio": "1/1"
+            },
+            "Petite Frill Blouse": {
+                "brand": "BtSSB",
+                "year": 2008,
+                "lolibrary": "https://lolibrary.org/items/btssb-petite-frill-removal-sleeves-blouse",
+                "img": "/img/wardrobe/blouses/wishlist/petite-frill.jpeg",
+                "aspectratio": "1/1"
+            },
+            "Two Layer Frill Lace Blouse": {
+                "brand": "BtSSB",
+                "year": 2008,
+                "lolibrary": "https://lolibrary.org/items/btssb-two-layer-frill-lace-blouse",
+                "img": "/img/wardrobe/blouses/wishlist/two-layer-frill.jpeg",
+                "aspectratio": "1/1"
+            },
+            "Round Collar Pullover with Tie": {
+                "brand": "BtSSB",
+                "year": 2008,
+                "lolibrary": "https://lolibrary.org/items/btssb-sweatshirt-with-marueri-tie",
+                "img": "/img/wardrobe/blouses/wishlist/round-collar-pullover.jpeg",
+                "aspectratio": "1/1"
+            },
+            "Square Neck Collar Short Sleeve Cutsew": {
+                "brand": "BtSSB",
+                "year": 2008,
+                "lolibrary": "https://lolibrary.org/items/btssb-square-neck-collar-short-sleeve-cutsew",
+                "img": "/img/wardrobe/blouses/wishlist/square-neck-collar.jpeg",
+                "aspectratio": "1/1"
+            }
+        }
+    },
+    "outerwear": {
+        "pieces": {
+            "Andante Coat": {
+                "brand": "Atelier Pierrot",
+                "year": 2011,
+                "lolibrary": "https://lolibrary.org/items/atelier-pierrot-andante-coat",
+                "img": "/img/wardrobe/outerwear/wishlist/andante-coat.jpeg",
+                "aspectratio": "3/4"
+            },
+            "Card Suit Knit Bolero": {
+                "brand": "AatP",
+                "year": 2009,
+                "lolibrary": "https://lolibrary.org/items/aatp-cards-transparent-knitting-bolero",
+                "img": "/img/wardrobe/outerwear/wishlist/card-suit-bolero.jpeg",
+                "aspectratio": "3/4"
+            },
+            "Hemera Sailor Cardigan": {
+                "brand": "Moi Meme Moitie",
+                "year": 2023,
+                "lolibrary": "https://lolibrary.org/items/moitie-hemera-sailor-cardigan",
+                "img": "/img/wardrobe/outerwear/wishlist/hemera-cardigan.png",
+                "aspectratio": "3/4"
+            },
+            "Bunny Ears Knit Cardigan": {
+                "brand": "BtSSB",
+                "year": 2007,
+                "lolibrary": "https://lolibrary.org/items/btssb-bunny-ears-knit-cardigan-0",
+                "img": "/img/wardrobe/outerwear/wishlist/bunny-ears-cardigan.jpeg",
+                "aspectratio": "3/4"
+            },
+            "Princess Pearl Cardigan": {
+                "brand": "BtSSB",
+                "year": 2012,
+                "lolibrary": "https://lolibrary.org/items/btssb-princess-pearl-cardigan",
+                "img": "/img/wardrobe/outerwear/wishlist/princess-pearl.jpeg",
+                "aspectratio": "3/4"
+            },
+            "Cross Lace Bolero": {
+                "brand": "Moi Meme Moitie",
+                "year": 2009,
+                "lolibrary": "https://lolibrary.org/items/moitie-cross-lace-bolero",
+                "img": "/img/wardrobe/outerwear/wishlist/cross-lace-bolero.jpeg",
+                "aspectratio": "3/4"
+            }
+        }
+    },
+    "shoes": {
+        "pieces": {
+            "Odyssey Platform Pumps": {
+                "brand": "Bodyline",
+                "year": 2012,
+                "lolibrary": "https://lolibrary.org/items/bodyline-odyssey-platform-pumps-shoes258",
+                "img": "/img/wardrobe/shoes/wishlist/odyssey-pumps.png",
+                "aspectratio": "1/1"
+            },
+            "Heart Buckle Shoes": {
+                "brand": "BtSSB",
+                "year": 2010,
+                "lolibrary": "https://lolibrary.org/items/btssb-heart-buckle-shoes-0",
+                "img": "/img/wardrobe/shoes/wishlist/heart-buckle.jpg",
+                "aspectratio": "1/1"
+            },
+            "Wooden Sole Ribbonn Shoes": {
+                "brand": "BtSSB",
+                "year": 2006,
+                "lolibrary": "https://lolibrary.org/items/btssb-wood-soles-ribbon-shoes",
+                "img": "/img/wardrobe/shoes/wishlist/wooden-sole.jpg",
+                "aspectratio": "3/4"
+            },
+            "Fancy Doll Boots": {
+                "brand": "Angelic Pretty",
+                "year": 2013,
+                "lolibrary": "https://lolibrary.org/items/ap-fancy-doll-boots",
+                "img": "/img/wardrobe/shoes/wishlist/fancy-doll.jpg",
+                "aspectratio": "3/4"
+            }
+        }
+    },
+    "bags": {
+        "pieces": {
+            "Ribbon Heart Bag": {
+                "brand": "BtSSB",
+                "year": 2006,
+                "lolibrary": "https://lolibrary.org/items/btssb-ribbon-heart-bag-130980",
+                "img": "/img/wardrobe/bags/wishlist/heart-bag.jpeg",
+                "aspectratio": "3/4"
+            },
+            "Angelic Garden Tote Bag": {
+                "brand": "Angelic Pretty",
+                "year": 2006,
+                "lolibrary": "https://lolibrary.org/items/ap-angelic-garden-tote-bag",
+                "img": "/img/wardrobe/bags/wishlist/angelic-garden.jpeg",
+                "aspectratio": "3/4"
+            },
+            "Heart Shoulder Bag": {
+                "brand": "Angelic Pretty",
+                "year": 2005,
+                "lolibrary": "https://lolibrary.org/items/ap-heart-shoulder-bag-0",
+                "img": "/img/wardrobe/bags/wishlist/heart-shoulder.jpeg",
+                "aspectratio": "3/4"
+            },
+            "School Bag with Heart Shaped Passcase": {
+                "brand": "BtSSB",
+                "year": 2014,
+                "lolibrary": "https://lolibrary.org/items/btssb-school-bag-with-heart-shaped-pass-case",
+                "img": "/img/wardrobe/bags/wishlist/school-bag.jpeg",
+                "aspectratio": "3/4"
+            }
+        }
+    },
+    "legwear": {
+        "pieces": {
+            "Small Lace OTKs": {
+                "brand": "BtSSB",
+                "year": 2023,
+                "lolibrary": "https://lolibrary.org/items/btssb-small-lace-otks-2023",
+                "img": "/img/wardrobe/accessories/wishlist/small-lace.png",
+                "aspectratio": "3/4"
+            },
+            "Heart Lace Ankle Socks": {
+                "brand": "BtSSB",
+                "year": 2023,
+                "lolibrary": "https://lolibrary.org/items/btssb-heart-lace-ankle-socks-0",
+                "img": "/img/wardrobe/accessories/wishlist/heart-lace-ankle.jpeg",
+                "aspectratio": "3/4"
+            },
+            "Ribbon Threaded Torchon Lace OTKs": {
+                "brand": "BtSSB",
+                "year": 2004,
+                "lolibrary": "https://lolibrary.org/items/btssb-ribbon-threaded-torchon-lace-otks-0",
+                "img": "/img/wardrobe/accessories/wishlist/torchon.jpeg",
+                "aspectratio": "3/4"
+            },
+            "Cross Arch Lace Ribbon OTKs": {
+                "brand": "Moi Meme Moitie",
+                "year": 2023,
+                "lolibrary": "https://lolibrary.org/items/moitie-cross-arch-lace-ribbon-otks-2023",
+                "img": "/img/wardrobe/accessories/wishlist/cross-arch.png",
+                "aspectratio": "3/4"
+            }
+        }
+    },
+    "accessories": {
+        "pieces": {
+            "Rose Cross Arch Headdress": {
+                "brand": "Moi Meme Moitie",
+                "year": 2023,
+                "lolibrary": "https://lolibrary.org/items/moitie-rose-cross-arch-headdress-2023",
+                "img": "/img/wardrobe/accessories/wishlist/rose-cross-arch.png",
+                "aspectratio": "1/1"
+            },
+            "Teddy Bear Lace Head Bow": {
+                "brand": "BtSSB",
+                "year": 2008,
+                "lolibrary": "https://lolibrary.org/items/btssb-bear-chan-lace-head-bow",
+                "img": "/img/wardrobe/accessories/wishlist/teddy-bear-lace.jpeg",
+                "aspectratio": "1/1"
+            },
+            "Chelsea Headbow": {
+                "brand": "BtSSB",
+                "year": 2008,
+                "lolibrary": "https://lolibrary.org/items/btssb-chelsea-head-bow-0",
+                "img": "/img/wardrobe/accessories/wishlist/chelsea-headbow.jpeg",
+                "aspectratio": "1/1"
+            },
+            "Rosary Rose Headdress": {
+                "brand": "BtSSB",
+                "year": 2011,
+                "lolibrary": "https://lolibrary.org/items/btssb-rosary-rose-headdress-2011",
+                "img": "/img/wardrobe/accessories/wishlist/rosary-rose.jpeg",
+                "aspectratio": "1/1"
+            }
+        }
+    }
+}

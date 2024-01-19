@@ -1,0 +1,53 @@
+{
+    "main pieces": {
+        "pieces": {
+            "Lace Flocky Skirt": {
+                "brand": "BtSSB",
+                "year": 2010,
+                "lolibrary": "https://lolibrary.org/items/aatp-lace-flocky-skirt",
+                "img": "/img/wardrobe/main/lace-flocky-skirt.png"
+            }
+        }
+    },
+    "blouses": {
+        "pieces": {
+        }
+    },
+    "outerwear": {
+        "pieces": {
+        }
+    },
+    "shoes": {
+        "pieces": {
+        }
+    },
+    "bags": {
+        "pieces": {
+            "Usakumya Pochette": {
+                "brand": "BtSSB",
+                "year": 2019,
+                "lolibrary": "https://lolibrary.org/items/btssb-usakumya-pochette-2019-2nd-release",
+                "img": "/img/wardrobe/bags/usakumya-black-blue.png"
+            }
+        }
+    },
+    "legwear": {
+        "pieces": {
+            "Ribbon OTKs": {
+                "brand": "BtSSB",
+                "year": 2023,
+                "lolibrary": "https://lolibrary.org/items/btssb-ribbon-otks-2023",
+                "img": "/img/wardrobe/accessories/legwear/ribbon-otks.png"
+            }
+        }
+    },
+    "accessories": {
+        "pieces": {
+            
+        }
+    },
+    "inner": {
+        "pieces": {
+        }
+    }
+}
