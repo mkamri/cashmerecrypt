@@ -38,6 +38,7 @@ strong,
 time {
     font-family: 'Pixel Operator Mono Bold', monospace;
     font-weight: 700;
+    margin-top: 2rem;
 }
 
 h1 {
@@ -107,7 +108,7 @@ header figure {
 
 #container {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 550px 1fr;
     grid-gap: var(--spacing);
     margin-top: var(--spacing);
 }
@@ -122,10 +123,13 @@ header figure {
     }
     nav ul {
         display: flex;
+        flex-wrap: wrap;
     }
-    nav ul > * + * {
-        margin-top: 0;
-        margin-left: 1.25rem;
+    nav ul li {
+        white-space: nowrap;
+    }
+    nav ul li{
+        margin: .75rem;
     }
     #status {
         display: none;
@@ -192,6 +196,7 @@ section #button-container * {
 article ul,
 article ol {
     margin-left: 1rem;
+    margin-top: 1rem;
 }
 article ul li:before {
     content: "❥";
@@ -199,6 +204,10 @@ article ul li:before {
 }
 article li {
     margin: .5rem;
+}
+article img {
+    margin: 1rem 0;
+    max-width: 100%;
 }
 
 /**
@@ -293,4 +302,12 @@ article li {
     width: 100%;
     margin-bottom: 1rem;
     margin-top: 1rem;
+}
+
+.coords img {
+    max-height: 80vh;
+    width: auto;
+    display: block;
+    max-width: 100%;
+    margin-top: .5rem;
 }

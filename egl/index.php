@@ -6,12 +6,17 @@
         <h1>my collection</h1>
         <div id="egl-collection--nav">
             <a href="/egl/wardrobe">
-                <img src="/img/assets/wardrobe-btn.png"
+                <img src="/img/assets/wardrobe--btn.png"
                      class="egl-collection--nav-img"
                      />
             </a>
-            <a href="/egl/wishlist">
-                <img src="/img/assets/wishlist-btn.png"
+            <a href="/egl/wtb">
+                <img src="/img/assets/wtb--btn.png"
+                     class="egl-collection--nav-img"
+                     />
+            </a>
+            <a href="/egl/coords">
+                <img src="/img/assets/coords--btn.png"
                      class="egl-collection--nav-img"
                      />
             </a>
@@ -19,14 +24,14 @@
     </section>
     <article>
         <h1>about egl fashion</h1>
-        <p>Elegant Gothic Lolita is a fashion style that originated in Japan in the early 1990s. It is highly feminine, has a distinct and modest silhouette, and is generally made from high-quality materials.</p>
+        <p>Elegant Gothic Lolita is a fashion style that originated in Japan in the early 1990s. It is highly feminine, has a distinct and modest silhouette, and is generally made from high-quality materials. <a href="http://www.fyeahlolita.com/p/what-is-lolita.html" target="_blank">Click here</a> to learn more about the fashion.</p>
         <h1>who is lolita for?</h1>
-        <p>Anyone can be a lolita, regardless of race, gender, body type, physical ability, or sexual orientation. Although there is a monetary investment to get started, there are now many quality brands that offer beautiful pieces at a lower price than the main Japanese brands.</p>
+        <p>Anyone can be a lolita, regardless of race, gender, body type, physical ability, or sexual orientation. Although there is a monetary investment to get started, there are now many quality brands that offer beautiful pieces at a lower price than in years past.</p>
         <h1>what does it <i>mean</i>?</h1>
         <p>The meaning of lolita differs from person to person. For some, it is simply a fashion statement. For me, it is a way to express my feminity in a way that is just for myself.</p>
         <p>I love to immerse myself in a beautiful, soft, lacy world. I am also a member of the slow fashion movement, and I appreciate any brand that produces high-quality clothing intended to last for years to come.</p>
         <h1>obligatory statement</h1>
-        <p>Despite its name, Elegant Gothic Lolita holds no relation to the Russian novel or any related proclivities. Please don't be a creep.</p>
+        <p>Despite its name, Elegant Gothic Lolita holds no relation to the Russian novel or any related proclivities.</p>
     </article>
     <section>
         <h1>further reading</h1>

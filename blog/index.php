@@ -1,5 +1,4 @@
 <?php 
-    include($_SERVER["DOCUMENT_ROOT"].'/lib/Parsedown.php');
     include($_SERVER["DOCUMENT_ROOT"].'/header.html'); 
 
     $posts = json_decode(file_get_contents($_SERVER["DOCUMENT_ROOT"].'/blog/posts.json'));

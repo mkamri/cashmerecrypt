@@ -12,6 +12,10 @@
     <section id="latest">
         <h1>latest</h1>
         <p>
+            <time datetime="2024-01-19">1/19/2024</time>: 
+            Add <a href="/egl">egl fashion</a> section with a wardrobe and wishlist feature.
+        </p>
+        <p>
             <time datetime="2024-01-14">1/14/2024</time>: 
             Add <a href="/links">links</a> and a button that I designed for my site.
         </p>
