@@ -9,18 +9,25 @@
 
     // Get the content & metadata
     $content  = file_get_contents('content.md');
-    $posts    = json_decode(file_get_contents($_SERVER["DOCUMENT_ROOT"].'/blog/posts.json'));
+    $posts    = json_decode(file_get_contents($_SERVER["DOCUMENT_ROOT"].'/garden/posts.json'));
     $postData = $posts->{$slug};
 
 ?>
 <main>
-    <section id="blog">
-        <h1>Blog Post: <?= $postData->title ?></h1>
+    <section id="data">
+        <h1><a href="/garden">☜</a> <?= $postData->title ?></h1>
         <ul>
-            <li>
-                <strong>date:</strong> 
-                <?= date('m/d/Y', strtotime($postData->date)) ?>
-            </li>
+            <?php if($postData->updatedOn): ?>
+                <li>
+                    <strong>last updated:</strong> 
+                    <?= date('m/d/Y', strtotime($postData->updatedOn)) ?>
+                </li>
+            <?php else: ?>
+                <li>
+                    <strong>planted on:</strong> 
+                    <?= date('m/d/Y', strtotime($postData->plantedOn)) ?>
+                </li>
+            <?php endif; ?>
             <?php if(isset($postData->music) && !empty($postData->music)): ?>
                 <li>
                     <strong>listening to:</strong> 

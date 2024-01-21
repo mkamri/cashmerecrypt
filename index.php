@@ -12,6 +12,10 @@
     <section id="latest">
         <h1>latest</h1>
         <p>
+            <time datetime="2024-01-19">1/21/2024</time>: 
+            Convert blog section to a <a href="/garden">digital garden</a>. I want this site to grow along with me.
+        </p>
+        <p>
             <time datetime="2024-01-19">1/19/2024</time>: 
             Add <a href="/egl">egl fashion</a> section with a wardrobe and wishlist feature.
         </p>
@@ -21,7 +25,7 @@
         </p>
         <p>
             <time datetime="2024-01-08">1/8/2024</time>: 
-            Add <a href="/blog">blog section</a> and first blog post. Make layout mobile friendly. Add <a href="/gallery">art gallery</a>.
+            Add blog section and first blog post. Make layout mobile friendly. Add <a href="/gallery">art gallery</a>.
         </p>
         <p>
             <time datetime="2024-01-04">1/4/2024</time>: 

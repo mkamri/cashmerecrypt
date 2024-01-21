@@ -17,17 +17,24 @@
         <ul>
             <li>
                 <a href="https://www.vzqk50.com/" 
-                   target="_blank">The Hive</a> - A web development blog by my close friend who supported my self-taught coding journey
+                   target="_blank">The Hive</a> - A web development garden by my close friend who supported my self-taught coding journey
             </li>
             <li>
                 <a href="https://lexikcline.com/" 
-                   target="_blank">Lexi K Cline</a> - An online gallery & art blog by my close friend and kindred artist spirit
+                   target="_blank">Lexi K Cline</a> - An online gallery & art garden by my close friend and kindred artist spirit
             </li>
             <li>
                 <a href="https://keikiiart.carrd.co/" 
                    target="_blank">Keikii Art</a> - A small business run by my close friend and fellow art nerd
             </li>
         </ul>
+    </section>
+    <section>
+        <h1>webrings</h1>
+        <div id='CultofUsakumya'>
+            <script type="text/javascript" src="https://mal.ophanimkei.com/lolitaonionring.js"></script>
+            <script type="text/javascript" src="https://mal.ophanimkei.com/lolitawidget2.js"></script>
+        </div>
     </section>
     <section>
         <h1>cool sites</h1>
@@ -56,6 +63,18 @@
                 target="_blank">
                 <img src="/img/buttons/frumpzone.gif">
             </a>
+            <a href="https://kyu.neocities.org/" 
+                target="_blank">
+                <img src="/img/buttons/kyu.gif">
+            </a>
+            <a href="https://crow-queen.neocities.org/" 
+                target="_blank">
+                <img src="/img/buttons/crowqueen.gif">
+            </a>
+            <a href="https://inkcaps.neocities.org/home/" 
+                target="_blank">
+                <img src="/img/buttons/inkcaps.gif">
+            </a>
             <a href="https://bizarredollhouse.neocities.org" 
                 target="_blank">
                 <img src="/img/buttons/bizarrebanner.png">
@@ -76,11 +95,15 @@
                 target="_blank">
                 <img src="/img/buttons/sadgrlonline.gif"/>
             </a>
+            <a href="https://bikobatanari.art/" 
+                target="_blank">
+                <img src="/img/buttons/bikobatanari.gif"/>
+            </a>
             <a href="https://www.lolitahistory.com/gallery/index.php?/category/1/startcat-24" 
                 target="_blank">
                 <img src="/img/buttons/glb.png"/>
             </a>
-            <a href="http://marionettecemetery.blogspot.com/" 
+            <a href="http://marionettecemetery.gardenspot.com/" 
                 target="_blank">
                 <img src="/img/buttons/marionette-cemetery.png"/>
             </a>
@@ -89,6 +112,17 @@
                 <img src="/img/buttons/lacemonster.gif"/>
             </a>
         </div>
+    </section>
+    <section>
+        <h1>articles</h1>
+        <ul>
+            <li>
+                <a href="https://bikobatanari.art/posts/2022/create-something-terrible"
+                   target="_blank">
+                    Create Something Terrible
+                </a> - bikobatanari
+            </li>
+        </ul>
     </section>
 </main>
 <?php 

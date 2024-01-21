@@ -16,7 +16,7 @@
 }
 
 html {
-    background-color: #2b2b2b;
+    background-color: #2d2828;
 }
 
 body {
@@ -38,7 +38,6 @@ strong,
 time {
     font-family: 'Pixel Operator Mono Bold', monospace;
     font-weight: 700;
-    margin-top: 2rem;
 }
 
 h1 {
@@ -73,7 +72,7 @@ a:hover {
 }
 
 li {
-    line-height: 1rem;
+    line-height: 1.3rem;
     vertical-align: middle;
 }
 
@@ -100,6 +99,7 @@ header {
 header h1 {
     font-family: 'Cthulhumbus Arcade';
     font-size: 3rem;
+    color: #ffffff;
 }
 
 header figure {
@@ -153,15 +153,14 @@ nav li:before {
     padding-right: 5px;
 }
 
+#status {
+    font-size: .8rem;
+}
+
 footer {
-    background-color: #000000;
     padding: .25rem;
     margin-top: var(--spacing);
     text-align: center;
-}
-footer p {
-    padding: 1rem;
-    margin: 0;
 }
 
 dialog {
@@ -190,7 +189,7 @@ section #button-container * {
 }
 
 /**
- * BLOG
+ * garden
  */
 
 article ul,
@@ -310,4 +309,8 @@ article img {
     display: block;
     max-width: 100%;
     margin-top: .5rem;
+}
+
+.coords ul {
+    margin-bottom: 2rem;
 }
