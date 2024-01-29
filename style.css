@@ -80,6 +80,10 @@ ul > * + * {
     margin-top: .75rem;
 }
 
+ul > li > ul {
+    margin-left: 1rem;
+}
+
 button, input[type="submit"], input[type="reset"] {
 	background: none;
 	color: inherit;
@@ -195,11 +199,11 @@ section #button-container * {
 article ul,
 article ol {
     margin-left: 1rem;
-    margin-top: 1rem;
 }
 article ul li:before {
     content: "❥";
-    padding-right: 5px;
+    margin-left: -21px;  /* this is to move the icon left */
+    padding-right: 10px; /* to keep some space between icon and text */
 }
 article li {
     margin: .5rem;
@@ -313,4 +317,12 @@ article img {
 
 .coords ul {
     margin-bottom: 2rem;
+}
+
+#webrings {
+    display: flex;
+}
+
+#webrings > * {
+    margin-right: var(--spacing);
 }

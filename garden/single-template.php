@@ -17,7 +17,7 @@
     <section id="data">
         <h1><a href="/garden">☜</a> <?= $postData->title ?></h1>
         <ul>
-            <?php if($postData->updatedOn): ?>
+            <?php if(isset($postData->updatedOn) && $postData->updatedOn): ?>
                 <li>
                     <strong>last updated:</strong> 
                     <?= date('m/d/Y', strtotime($postData->updatedOn)) ?>

@@ -5,5 +5,23 @@
         "excerpt": "My first post on my new website",
         "plantedOn": "2024-01-08 14:00:00",
         "updatedOn": "2024-01-21 13:00:00"
+    },
+    "criticism": {
+        "title": "Dealing with Criticism",
+        "type": "personal",
+        "excerpt": "How to handle constructive (and less-than-constructive) criticism",
+        "plantedOn": "2023-09-05 22:00:00"
+    },
+    "act-like-an-artist": {
+        "title": "My Art Commitment",
+        "type": "personal",
+        "excerpt": "Committing to myself to work on and have fun with my art",
+        "plantedOn": "2023-09-18 14:00:00"
+    },
+    "art-prompt-sad": {
+        "title": "Sad Art Prompts",
+        "type": "art prompts",
+        "excerpt": "What to draw to get you through a sad day",
+        "plantedOn": "2023-09-13 19:00:00"
     }
 }

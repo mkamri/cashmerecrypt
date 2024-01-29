@@ -12,6 +12,10 @@
     <section id="latest">
         <h1>latest</h1>
         <p>
+            <time datetime="2024-01-19">1/24/2024</time>: 
+            Migrate posts from my old website to my <a href="/garden">digital garden</a>.
+        </p>
+        <p>
             <time datetime="2024-01-19">1/21/2024</time>: 
             Convert blog section to a <a href="/garden">digital garden</a>. I want this site to grow along with me.
         </p>
