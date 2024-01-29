@@ -31,9 +31,15 @@
     </section>
     <section>
         <h1>webrings</h1>
-        <div id='CultofUsakumya'>
-            <script type="text/javascript" src="https://mal.ophanimkei.com/lolitaonionring.js"></script>
-            <script type="text/javascript" src="https://mal.ophanimkei.com/lolitawidget2.js"></script>
+        <div id="webrings">
+            <div id='CultofUsakumya'>
+                <script type="text/javascript" src="https://mal.ophanimkei.com/lolitaonionring.js"></script>
+                <script type="text/javascript" src="https://mal.ophanimkei.com/lolitawidget2.js"></script>
+            </div>
+            <div id='cutie-club'>
+                <script type="text/javascript" src="https://ita.toys/cutie-club/onionring-variables.js"></script>
+                <script type="text/javascript" src="https://ita.toys/cutie-club/onionring-widget.js"></script>
+            </div>
         </div>
     </section>
     <section>
