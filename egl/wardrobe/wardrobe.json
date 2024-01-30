@@ -11,14 +11,40 @@
     },
     "blouses": {
         "pieces": {
+            "Apricot Blouse": {
+                "brand": "Angelic Pretty",
+                "year": 2018,
+                "lolibrary": "https://lolibrary.org/items/ap-apricot-blouse",
+                "img": "/img/wardrobe/blouses/apricot.jpeg",
+                "aspectratio": "1/1"
+            },
+            "Candleabra Cutsew": {
+                "brand": "Moi Meme Moitie",
+                "year": 2022,
+                "lolibrary": "https://lolibrary.org/items/moitie-candelabra-embroidery-puff-sleeve-cutsew",
+                "img": "/img/wardrobe/blouses/candleabra.png",
+                "aspectratio": "1/1"
+            }
         }
     },
     "outerwear": {
         "pieces": {
+            "A/P School Cardigan": {
+                "brand": "Alice and the Pirates",
+                "year": 2012,
+                "lolibrary": "https://lolibrary.org/items/aatp-ap-school-cardigan-2012",
+                "img": "/img/wardrobe/outerwear/school-cardigan.jpeg"
+            }
         }
     },
     "shoes": {
         "pieces": {
+            "Addina Flower Buckle": {
+                "brand": "Dr. Martens",
+                "year": 2023,
+                "lolibrary": "https://www.drmartens.com/us/en/addina-flower-buckle-leather-platform-shoes-black/p/27644001",
+                "img": "/img/wardrobe/shoes/doc-martens.png"
+            }
         }
     },
     "bags": {
@@ -48,6 +74,18 @@
     },
     "inner": {
         "pieces": {
+            "Bloomers (Medium Length)": {
+                "brand": "Metamorphose",
+                "year": 2012,
+                "lolibrary": "https://lolibrary.org/items/meta-bloomers-medium-length",
+                "img": "/img/wardrobe/inner/medium-bloomers.jpeg"
+            },
+            "Tool Lace Culotte Skirt": {
+                "brand": "Innocent World",
+                "year": 2011,
+                "lolibrary": "https://lolibrary.org/items/iw-tulle-lace-culotte-skirt",
+                "img": "/img/wardrobe/inner/culottes.jpeg"
+            }
         }
     }
 }

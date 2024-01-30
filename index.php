@@ -12,6 +12,10 @@
     <section id="latest">
         <h1>latest</h1>
         <p>
+            <time datetime="2024-01-30">1/30/2024</time>: 
+            Update <a href="/egl/wardrobe">wardrobe</a>.
+        </p>
+        <p>
             <time datetime="2024-01-19">1/24/2024</time>: 
             Migrate posts from my old website to my <a href="/garden">digital garden</a>.
         </p>
