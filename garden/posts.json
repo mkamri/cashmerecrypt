@@ -1,4 +1,11 @@
 {
+    "2024-lolita-goals": {
+        "title": "2024 Lolita Goals",
+        "type": "lolita",
+        "excerpt": "What I hope to do with my wardrobe in 2024",
+        "plantedOn": "2024-01-31 17:00:00",
+        "updatedOn": null
+    },
     "first": {
         "title": "Hello World",
         "type": "personal",

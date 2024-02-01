@@ -1,5 +1,6 @@
 <?php 
     include($_SERVER["DOCUMENT_ROOT"].'/header.html'); 
+    $posts = json_decode(file_get_contents($_SERVER["DOCUMENT_ROOT"].'/garden/posts.json'));
 ?>
 <main>
     <section>
@@ -33,6 +34,20 @@
         <h1>obligatory statement</h1>
         <p>Despite its name, Elegant Gothic Lolita holds no relation to the Russian novel or any related proclivities.</p>
     </article>
+    <section>
+        <h1>my lolita posts</h1>
+        <ul>
+            <?php foreach($posts as $slug => $post): ?>
+                <?php if($post->type == 'lolita'): ?>
+                    <li>
+                        <a href="/garden/<?= $slug ?>">
+                            <?= $post->title ?>
+                        </a>
+                    </li>
+                <?php endif; ?>
+            <?php endforeach; ?>
+        </ul>
+    </section>
     <section>
         <h1>further reading</h1>
         <ul>
