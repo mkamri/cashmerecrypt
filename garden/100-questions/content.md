@@ -1,4 +1,10 @@
-Template copied from [Raine Dragon's translation](https://www.rainedragon.com/100-questions-to-lolita-2001-quiz/)
+# About This Questionnairre
+
+Back in the old days of the internet, these lists of questions seemed to float around every fandom and internet group. I remember having a lot of fun filling these out on Deviantart and Ye Olde Facebook :)
+
+As a throwback to the olden days, I've completed this lolita-specific template from 2001.
+
+If you're interested in viewing the original questions or filling it out yourself, please check out [Raine Dragon's translation](https://www.rainedragon.com/100-questions-to-lolita-2001-quiz/).
 
 ---
 
@@ -18,17 +24,23 @@ I'm 5'4", and my shoe size is JP 24.5. I'd rather not share my weight online :)
 
 A friend in middle school (2008) showed me the Gothic Lolita Bible and I was absolutely hooked.
 
+![Gothic & Lolita Bible 2008](/img/garden/100-questions/3.jpg)
+
 ---
 
 **4 What is your favorite Lolita genre?**
 
 Old school & gothic styles are my favorite to wear!
 
+![Mana-sama in an old school kuro coord](/img/garden/100-questions/4.jpg)
+
 ---
 
 **5 Do you have any particular commitment to that genre, or your own definition of it?**
 
 I love to wear Kuro or Black & White colorways, and I tend to enjoy simple unpatterned fabrics with intricate lace details.
+
+![A black and white coord including Angelic Pretty's heart pocket dress](/img/garden/100-questions/5.jpg)
 
 ---
 
@@ -41,6 +53,8 @@ Yes! I have 7 ear piercings.
 **7 What is your favorite brand?**
 
 I like Kamelot, Emilie Autumn, Bauhaus, Sisters of Mercy, Malice Mizer, Versailles, and Wednesday Campanella.
+
+![Emilie Autumn in a Victorian-inspired dress holding a teddy bear](/img/garden/100-questions/7.png)
 
 ---
 
@@ -77,6 +91,7 @@ Gothic & Lolita Bible :)
 **13 Headdress group? Team Bonnet? Team Headbow?**
 
 Team rectangle headdress ;)
+
 
 ---
 
@@ -155,6 +170,10 @@ I like to go to the library and coffee shop, but I haven't been in a while. Most
 
 Doing a whole photoshoot in a very ita coord, showing my petticoat... I was wearing a silky white button-down from a department store, a Lip Service skirt with a light pink petticoat showing underneath, school-style under the knee socks and black mary jane's. I guess the shoes were okay but the rest was horrible~
 
+The below photo is not from said photoshoot, but a similar "coord" from that time in which I shoved a petticoat under a dress from the supermarket...
+
+![Me wearing a dress from the supermarket and thinking it's lolita](/img/garden/100-questions/26.jpeg)
+
 ---
 
 **27 What is your hairstyle and color now?**
@@ -208,6 +227,8 @@ Hmm... I guess Gloria Glassy St Mary JSK I, since I took it to prom and then to 
 **35 What was the first item you got?**
 
 The above mentioned Gloria Glassy St Mary JSK I :)
+
+![Me wearing a stained glass print dress, stretched on a gravestone](/img/garden/100-questions/35.jpg)
 
 ---
 
@@ -266,6 +287,8 @@ Chapstick, a comb, Tide-To-Go, and hand lotion.
 **44 What is your favorite flower?**
 
 Forget-me-not
+
+![A cluster of tiny blue flowers on a black background](/img/garden/100-questions/44.png)
 
 ---
 
@@ -345,6 +368,8 @@ Yes, I had to wait because I was just in middle school and couldn't afford it!
 
 Vampire Requiem - I paid too much for it, and sadly sold it for 1/3 what I bought it for...
 
+![A coord of Vampire Requiem, a white blouse and OTKs, and black boots](/img/garden/100-questions/57.jpg)
+
 ---
 
 **58 Lolita really costs money, doesn’t it? How do you pay for Lolita?**
@@ -385,7 +410,9 @@ Not a secret - I'm a huge fan of Wirehead and hope to own one of their pieces so
 
 **64 Absolutely out of reach! But I want it! Do you have any brands or products like that for you?**
 
-Yes, most oldschool Moitie pieces are in bad condition or sold for 3x what they were originally listed for... it isn't worth the money to me, but I would love to own some Moitie from 2001-2004 someday.
+Yes, most oldschool Moitie pieces are in bad condition or sold for 3x what they were originally listed for... it isn't worth the money to me, but I would love to own some Moitie from 2001-2004 someday. (Pictured: [Over Lace JSK 2002](https://lolibrary.org/items/moitie-lace-overlay-jsk))
+
+![Old School Black Lace JSK](/img/garden/100-questions/64.jpeg)
 
 ---
 
@@ -395,7 +422,7 @@ Sell 'em on Lacemarket :)
 
 ---
 
-**66 What was the most recent lolita and non lolita item of clothing you bought? **
+**66 What was the most recent lolita and non lolita item of clothing you bought?**
 
 Most recent lolita item - cutsew & cardigan haul<br>
 Most recent non-lolita - Doc Martens Mary Janes (can still wear them for lolita though)
@@ -459,6 +486,8 @@ Oh - unprompted or overly cruel concrit of others' coords.
 **76 What do you think about Lolita fashion for men?**
 
 Lolita is for all genders :)
+
+![Mana Sama in EGA and also in Lolita](/img/garden/100-questions/76.jpg)
 
 ---
 
@@ -532,6 +561,8 @@ Yes, I've made a rectangle headdress and a few headbows.
 
 Definitely my rectangle headdress! I'm very proud of my attention to detail, although it is not perfect.
 
+![My coord including a rectangle headdress, a short BtSSB skirt, and Doc Martens mary janes](/img/garden/100-questions/88.jpg)
+
 ---
 
 **89 Tell us if you have an ideal Lolita outfit or coordination.**
@@ -596,10 +627,12 @@ Textured
 
 **99 What is your ideal Lolita image?**
 
-That one image of Mana-sama in all white in front of a graveyard
+I don't think this is what you mean by this, but my favorite image (photo) is that one image of Mana-sama in all white in front of a graveyard
+
+![Mana-sama in all white in front of a graveyard](/img/garden/100-questions/99.jpg)
 
 ---
 
 **100 Thank you very much! Please give us your impression of answering 100!**
 
-This was fun!! I haven't done a questionairre like this in many years~
+This was fun!! I haven't done a questionnairre like this in many years~
