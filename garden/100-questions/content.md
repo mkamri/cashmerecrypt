@@ -32,8 +32,6 @@ A friend in middle school (2008) showed me the Gothic Lolita Bible and I was abs
 
 Old school & gothic styles are my favorite to wear!
 
-![Mana-sama in an old school kuro coord](/img/garden/100-questions/4.jpg)
-
 ---
 
 **5 Do you have any particular commitment to that genre, or your own definition of it?**
