@@ -45,38 +45,40 @@
             <h1>Gallery</h1>
             <button class="close-button">close gallery</button>
         </div>
-        <?php foreach($works as $file => $info): ?>
-            <div id="artwork-<?= $info->id ?>"
-                class="gallery-slide">
-                <img class="artwork-gallery"
-                    src="/img/art/<?= $year ?>/<?= $file ?>"
-                    alt="<?= $info->alt ?>"
-                    />
-                <div class="gallery-nav">
-                    <button 
-                            <?php if(in_array($info->id - 1, $ids)): ?>
-                                onclick="showSlide(<?= $info->id - 1 ?>)"
-                            <?php else: ?>
-                                disabled="disabled"
-                            <?php endif; ?>
-                    >
-                        ☜ prev
-                    </button>
-                    <div class="gallery-details">
+        <?php foreach($artworks as $year => $works): ?>
+            <?php foreach($works as $file => $info): ?>
+                <div id="artwork-<?= $info->id ?>"
+                    class="gallery-slide">
+                    <img class="artwork-gallery"
+                        src="/img/art/<?= $year ?>/<?= $file ?>"
+                        alt="<?= $info->alt ?>"
+                        />
+                    <div class="gallery-nav">
+                        <button 
+                                <?php if(in_array($info->id - 1, $ids)): ?>
+                                    onclick="showSlide(<?= $info->id - 1 ?>)"
+                                <?php else: ?>
+                                    disabled="disabled"
+                                <?php endif; ?>
+                        >
+                            ☜ prev
+                        </button>
+                        <div class="gallery-details">
 
-                        <h2><?= $info->title ?></h2>
-                        <p><?= $info->description ?></p>
+                            <h2><?= $info->title ?></h2>
+                            <p><?= $info->description ?></p>
+                        </div>
+                        <button 
+                                <?php if(in_array($info->id + 1, $ids)): ?>
+                                    onclick="showSlide(<?= $info->id + 1 ?>)"
+                                <?php else: ?>
+                                    disabled="disabled"
+                                <?php endif; ?>>
+                            next ☞
+                        </button>
                     </div>
-                    <button 
-                            <?php if(in_array($info->id + 1, $ids)): ?>
-                                onclick="showSlide(<?= $info->id + 1 ?>)"
-                            <?php else: ?>
-                                disabled="disabled"
-                            <?php endif; ?>>
-                        next ☞
-                    </button>
                 </div>
-            </div>
+            <?php endforeach; ?>
         <?php endforeach; ?>
     </div>
 </dialog>
