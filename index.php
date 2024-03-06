@@ -12,6 +12,14 @@
     <section id="latest">
         <h1>latest</h1>
         <p>
+            <time datetime="2024-03-06">3-6-2024</time>: 
+            Another new piece for my <a href="/gallery">Art Gallery</a>!
+        </p>
+        <p>
+            <time datetime="2024-03-05">3-5-2024</time>: 
+            New piece added to the <a href="/gallery">Art Gallery</a>.
+        </p>
+        <p>
             <time datetime="2024-02-29">2-29-2024</time>: 
             Add photos to <a href="/garden/100-questions">100 Lolita Questions</a>.
         </p>
