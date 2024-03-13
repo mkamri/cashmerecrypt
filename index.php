@@ -12,6 +12,10 @@
     <section id="latest">
         <h1>latest</h1>
         <p>
+            <time datetime="2024-03-12">3-12-2024</time>: 
+            Added a new <a href="/egl/handmade">Handmade Collection</a> section to the EGL Fashion page
+        </p>
+        <p>
             <time datetime="2024-03-06">3-6-2024</time>: 
             Another new piece for my <a href="/gallery">Art Gallery</a>!
         </p>

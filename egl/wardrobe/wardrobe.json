@@ -1,6 +1,12 @@
 {
     "main pieces": {
         "pieces": {
+            "Shirred Ladder Lace Skirt": {
+                "brand": "Handmade by Me",
+                "year": 2024,
+                "lolibrary": "/egl/handmade/shirred-skirt",
+                "img": "/img/wardrobe/main/shirred-skirt.jpeg"
+            },
             "Lace Flocky Skirt": {
                 "brand": "BtSSB",
                 "year": 2010,
@@ -67,9 +73,14 @@
             }
         }
     },
-    "accessories": {
+    "headwear": {
         "pieces": {
-            
+            "Daisy Rectangle Headdress": {
+                "brand": "Handmade by Me",
+                "year": 2024,
+                "lolibrary": "/egl/handmade/daisy-rectangle",
+                "img": "/img/wardrobe/accessories/headwear/rectangle-headdress.JPG"
+            }
         }
     },
     "inner": {

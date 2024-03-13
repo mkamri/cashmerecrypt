@@ -6,6 +6,11 @@
     <section>
         <h1>my collection</h1>
         <div id="egl-collection--nav">
+            <a href="/egl/handmade">
+                <img src="/img/assets/handmade--btn.png"
+                     class="egl-collection--nav-img"
+                     />
+            </a>
             <a href="/egl/wardrobe">
                 <img src="/img/assets/wardrobe--btn.png"
                      class="egl-collection--nav-img"
