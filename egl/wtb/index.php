@@ -7,7 +7,7 @@
     <section>
         <h1>
         <a href="/egl">☜</a> my wtb list</h1>
-        <p><strong>Current Buying status: No-Buy</strong> (ends Feb 1, 2024)</p>
+        <p><strong>Current Buying status: No-Buy</strong> (ends April 1, 2024)</p>
         <p>As I rebuild my lolita collection with intentionality, I've decided to only purchase items (or very similar items) from my wishlist moving forward. Please feel free to contact me at <a href="mailto:cashmerecrypt@pm.me">cashmerecrypt@pm.me</a> if you see any of these pieces floating around the internet!</p>
     </section>
     <?php foreach($wishlist as $category => $items): ?>

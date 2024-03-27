@@ -13,7 +13,7 @@
         <h1>latest</h1>
         <p>
             <time datetime="2024-03-27">3-27-2024</time>: 
-            Update colors & styles across site
+            Update colors & styles across site. Update <a href="/egl/wtb">Wishlist</a>.
         </p>
         <p>
             <time datetime="2024-03-12">3-12-2024</time>: 
