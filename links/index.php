@@ -34,7 +34,7 @@
         <div id="webrings">
             <div id='CultofUsakumya'>
                 <script type="text/javascript" src="https://mal.ophanimkei.com/lolitaonionring.js"></script>
-                <script type="text/javascript" src="https://mal.ophanimkei.com/lolitawidget2.js"></script>
+                <script type="text/javascript" src="https://mal.ophanimkei.com/lolitawidget3.js"></script>
             </div>
             <div id='cutie-club'>
                 <script type="text/javascript" src="https://ita.toys/cutie-club/onionring-variables.js"></script>
@@ -52,6 +52,10 @@
             <a href="https://yesterweb.org/#manifesto"
                 target="_blank">
                 <img src="/img/buttons/yesterweb.png"/>
+            </a>
+            <a href="https://ophanimkei.com/"
+                target="_blank">
+                <img src="/img/buttons/kie.gif"/>
             </a>
             <a href="https://howtobecomeanangel.neocities.org/"
                 target="_blank">

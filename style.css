@@ -16,7 +16,7 @@
 }
 
 html {
-    background-color: #2d2828;
+    background-color: #2a2a37;
 }
 
 body {
@@ -63,12 +63,12 @@ ul {
 
 a {
     font-family: 'Pixel Operator Mono Bold', monospace;
-    color: #bb4039;
+    color: #6675ff;
     text-decoration: none;
     transition: color .2s ease-in;
 }
 a:hover {
-    color: #8d211c;
+    color: #0000ff;
 }
 
 li {
