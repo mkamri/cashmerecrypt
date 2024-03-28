@@ -16,13 +16,18 @@
             <h1><?= $category ?></h1>
             <div class="wardrobe-grid">
                 <?php foreach($items->pieces as $name => $item): ?>
-                    <a href="<?= $item->lolibrary ?>" 
-                       class="wardrobe-item"
-                       target="_blank">
-                        <img src="<?= $item->img ?>"
-                             style="aspect-ratio: <?= $item->aspectratio ?? 'auto' ?>">
-                        <p><?= $name ?><br><?= $item->brand ?> <?= $item->year ?></p>
-                    </a>
+                    <div class="wardrobe-item">
+                        <?php if($item->lolibrary): ?>
+                            <a href="<?= $item->lolibrary ?>" 
+                               target="_blank">
+                        <?php endif; ?>
+                            <img src="<?= $item->img ?>"
+                                style="aspect-ratio: <?= $item->aspectratio ?? 'auto' ?>">
+                            <p><?= $name ?><br><?= $item->brand ?> <?= $item->year ?></p>
+                        <?php if($item->lolibrary): ?>
+                            </a>
+                        <?php endif; ?>
+                    </div>
                 <?php endforeach; ?>
             </div>
         </section>

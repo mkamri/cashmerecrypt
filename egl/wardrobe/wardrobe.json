@@ -5,13 +5,19 @@
                 "brand": "Handmade by Me",
                 "year": 2024,
                 "lolibrary": "/egl/handmade/shirred-skirt",
-                "img": "/img/wardrobe/main/shirred-skirt.jpeg"
+                "img": "/img/wardrobe/main/shirring-skirt.PNG"
             },
             "Lace Flocky Skirt": {
                 "brand": "BtSSB",
                 "year": 2010,
                 "lolibrary": "https://lolibrary.org/items/aatp-lace-flocky-skirt",
-                "img": "/img/wardrobe/main/lace-flocky-skirt.png"
+                "img": "/img/wardrobe/main/miniskirt.PNG"
+            },
+            "Francoise Velveteen": {
+                "brand": "Bodyline",
+                "year": 2011,
+                "lolibrary": "https://lolibrary.org/items/bodyline-francoise-velveteen-op-l310",
+                "img": "/img/wardrobe/main/bodyline-op.PNG"
             }
         }
     },
@@ -21,14 +27,49 @@
                 "brand": "Angelic Pretty",
                 "year": 2018,
                 "lolibrary": "https://lolibrary.org/items/ap-apricot-blouse",
-                "img": "/img/wardrobe/blouses/apricot.jpeg",
+                "img": "/img/wardrobe/blouses/apricot.PNG",
+                "aspectratio": "1/1"
+            },
+            "Yoke Switching Short Sleeve Blouse": {
+                "brand": "Metamorphose",
+                "year": 2009,
+                "lolibrary": "https://lolibrary.org/items/meta-yoke-switching-short-sleeve-blous",
+                "img": "/img/wardrobe/blouses/meta-blouse.png",
+                "aspectratio": "1/1"
+            },
+            "Heart Blouse": {
+                "brand": "Taobao",
+                "year": null,
+                "lolibrary": null,
+                "img": "/img/wardrobe/blouses/heart-blouse.png",
+                "aspectratio": "1/1"
+            },
+            "Long Sleeve Blouse": {
+                "brand": "Taobao",
+                "year": null,
+                "lolibrary": null,
+                "img": "/img/wardrobe/blouses/long-sleeve.png",
                 "aspectratio": "1/1"
             },
             "Candleabra Cutsew": {
                 "brand": "Moi Meme Moitie",
                 "year": 2022,
                 "lolibrary": "https://lolibrary.org/items/moitie-candelabra-embroidery-puff-sleeve-cutsew",
-                "img": "/img/wardrobe/blouses/candleabra.png",
+                "img": "/img/wardrobe/blouses/moitie-cutsew.png",
+                "aspectratio": "1/1"
+            },
+            "Bat Cutsew": {
+                "brand": "The Black Ribbon",
+                "year": 2021,
+                "lolibrary": "https://lolibrary.org/items/indie-the-black-ribbon-batty-top-cutsew",
+                "img": "/img/wardrobe/blouses/bat-cutsew.png",
+                "aspectratio": "1/1"
+            },
+            "Cutsew": {
+                "brand": "Emily Temple Cute",
+                "year": null,
+                "lolibrary": null,
+                "img": "/img/wardrobe/blouses/etc-cutsew.png",
                 "aspectratio": "1/1"
             }
         }
@@ -39,7 +80,35 @@
                 "brand": "Alice and the Pirates",
                 "year": 2012,
                 "lolibrary": "https://lolibrary.org/items/aatp-ap-school-cardigan-2012",
-                "img": "/img/wardrobe/outerwear/school-cardigan.jpeg"
+                "img": "/img/wardrobe/outerwear/aatp.png"
+            },
+            "Lace Cardigan": {
+                "brand": "Black Peace Now",
+                "year": null,
+                "lolibrary": null,
+                "img": "/img/wardrobe/outerwear/bpn-lace.png"
+            },
+            "Cardigan": {
+                "brand": "An Another Angelus",
+                "year": null,
+                "lolibrary": null,
+                "img": "/img/wardrobe/outerwear/angelus.png"
+            }
+        }
+    },
+    "headwear": {
+        "pieces": {
+            "Daisy Rectangle Headdress": {
+                "brand": "Handmade by Me",
+                "year": 2024,
+                "lolibrary": "/egl/handmade/daisy-rectangle",
+                "img": "/img/wardrobe/accessories/headwear/rectangle.png"
+            },
+            "Bat Rhapsody": {
+                "brand": "Lady Sloth",
+                "year": 2018,
+                "lolibrary": "https://lolibrary.org/items/indie-lady-sloth-bat-rhapsody-headdress",
+                "img": "/img/wardrobe/accessories/headwear/bat.png"
             }
         }
     },
@@ -70,32 +139,6 @@
                 "year": 2023,
                 "lolibrary": "https://lolibrary.org/items/btssb-ribbon-otks-2023",
                 "img": "/img/wardrobe/accessories/legwear/ribbon-otks.png"
-            }
-        }
-    },
-    "headwear": {
-        "pieces": {
-            "Daisy Rectangle Headdress": {
-                "brand": "Handmade by Me",
-                "year": 2024,
-                "lolibrary": "/egl/handmade/daisy-rectangle",
-                "img": "/img/wardrobe/accessories/headwear/rectangle-headdress.JPG"
-            }
-        }
-    },
-    "inner": {
-        "pieces": {
-            "Bloomers (Medium Length)": {
-                "brand": "Metamorphose",
-                "year": 2012,
-                "lolibrary": "https://lolibrary.org/items/meta-bloomers-medium-length",
-                "img": "/img/wardrobe/inner/medium-bloomers.jpeg"
-            },
-            "Tool Lace Culotte Skirt": {
-                "brand": "Innocent World",
-                "year": 2011,
-                "lolibrary": "https://lolibrary.org/items/iw-tulle-lace-culotte-skirt",
-                "img": "/img/wardrobe/inner/culottes.jpeg"
             }
         }
     }
