@@ -1,5 +1,5 @@
 <?php 
-    include($_SERVER["DOCUMENT_ROOT"].'/header.html'); 
+    include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php'); 
 
     // Get the content
     $artworks  = json_decode(file_get_contents('art.json'));
@@ -115,5 +115,5 @@
     }
 </script>
 
-<?php include($_SERVER["DOCUMENT_ROOT"].'/nav.html'); ?>
-<?php include($_SERVER["DOCUMENT_ROOT"].'/footer.html'); ?>
+
+<?php include($_SERVER["DOCUMENT_ROOT"].'/layout/footer.php'); ?>

@@ -1,73 +1,62 @@
-<?php include($_SERVER["DOCUMENT_ROOT"].'/header.html'); ?>
+<?php 
+    include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php');
+
+    $statuses = json_decode(file_get_contents($_SERVER["DOCUMENT_ROOT"]."/data/statuses.json"), true);
+    $statusDate = array_key_first($statuses);
+    $status = reset($statuses);
+
+    $diaries = json_decode(file_get_contents($_SERVER["DOCUMENT_ROOT"]."/data/diary.json"), true);
+    $diaryDate = array_key_first($diaries);
+    $diary = reset($diaries);
+?>
 <main>
     <section id="welcome">
         <h1>welcome</h1>
-        <p>Hi there! My name is Mika and this is my little corner of the internet.</p>
-        <p>My goal is to create a space to host my projects and share things that interest me. Please make yourself at home!</p>
+        <p>Welcome to <strong>Cashmere Crypt</strong>, my little corner of the internet. This site has been purposefully un-optimized for mobile. Please come back on your PC or enjoy the side-scroll  ˶ᵔ ᵕ ᵔ˶ </p>
+        <p>I'm an programmer by day, artist by night, and weekender gothic lolita. I love to discuss philosophy, taxonomy, counterculture, art, and the nature of life itself.</p>
+        <p>This site is my personal space to share my favorite clothing, thoughts about life, and whatever happens to interest me. Enjoy your stay! ˚ʚ𓉸ྀིɞ˚</p>
     </section>
-    <section id="about">
-        <h1>about me</h1>
-        <p>I'm an artist and web developer with an interest in gothic themes and minimalism. I love to discuss philosophy, taxonomy, counterculture, art, and the nature of life itself.</p>
-    </section>
-    <section id="latest">
-        <h1>latest</h1>
-        <p>
-            <time datetime="2024-03-27">3-27-2024</time>: 
-            Update colors & styles across site. Update <a href="/egl/wtb">Wishlist</a>.
-        </p>
-        <p>
-            <time datetime="2024-03-12">3-12-2024</time>: 
-            Added a new <a href="/egl/handmade">Handmade Collection</a> section to the EGL Fashion page
-        </p>
-        <p>
-            <time datetime="2024-03-06">3-6-2024</time>: 
-            Another new piece for my <a href="/gallery">Art Gallery</a>!
-        </p>
-        <p>
-            <time datetime="2024-03-05">3-5-2024</time>: 
-            New piece added to the <a href="/gallery">Art Gallery</a>.
-        </p>
-        <p>
-            <time datetime="2024-02-29">2-29-2024</time>: 
-            Add photos to <a href="/garden/100-questions">100 Lolita Questions</a>.
-        </p>
-        <p>
-            <time datetime="2024-02-28">2-28-2024</time>: 
-            Plant <a href="/garden/100-questions">100 Lolita Questions</a> in my garden.
-        </p>
-        <p>
-            <time datetime="2024-02-21">2/21/2024</time>: 
-            Update <a href="/garden/building-a-wardrobe">wardrobe plan</a>.
-        </p>
-        <p>
-            <time datetime="2024-01-30">1/30/2024</time>: 
-            Update <a href="/egl/wardrobe">wardrobe</a>.
-        </p>
-        <p>
-            <time datetime="2024-01-19">1/24/2024</time>: 
-            Migrate posts from my old website to my <a href="/garden">digital garden</a>.
-        </p>
-        <p>
-            <time datetime="2024-01-19">1/21/2024</time>: 
-            Convert blog section to a <a href="/garden">digital garden</a>. I want this site to grow along with me.
-        </p>
-        <p>
-            <time datetime="2024-01-19">1/19/2024</time>: 
-            Add <a href="/egl">egl fashion</a> section with a wardrobe and wishlist feature.
-        </p>
-        <p>
-            <time datetime="2024-01-14">1/14/2024</time>: 
-            Add <a href="/links">links</a> and a button that I designed for my site.
-        </p>
-        <p>
-            <time datetime="2024-01-08">1/8/2024</time>: 
-            Add blog section and first blog post. Make layout mobile friendly. Add <a href="/gallery">art gallery</a>.
-        </p>
-        <p>
-            <time datetime="2024-01-04">1/4/2024</time>: 
-            Create the basic layout for Cashmere Crypt.
-        </p>
-    </section>
+    <div class="homepage-grid homepage-grid--3">
+        <section class="widget widget--short">
+            <h2>status</h2>
+            <strong><?= time_elapsed_string($statusDate) ?></strong>
+            <p><?= $status ?></p>
+            <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
+        </section>
+        <section class="widget widget--short">
+            <h2>diary</h2>
+            <p><?= $diary['excerpt'] ?></p>
+            <p><a href="/diary">read my diary</a></p>
+            <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
+        </section>
+        <section class="widget widget--short">
+            <h2>link me</h2>
+            <a href="https://cashmerecrypt.art"
+            target="_blank">
+                <img src="/img/buttons/cashmere-crypt-badge.gif"/>
+            </a>
+            <textarea class="buttonHTML">&lt;a href=&quot;https:&#x2F;&#x2F;cashmerecrypt.art&quot; target=&quot;_blank&quot;&gt;
+        &lt;img src=&quot;https:&#x2F;&#x2F;cashmerecrypt.art&#x2F;img&#x2F;buttons&#x2F;cashmere-crypt-badge.gif&quot;&#x2F;&gt;
+    &lt;&#x2F;a&gt;</textarea>
+        </section>
+    </div>
+    <div class="homepage-grid homepage-grid--2">
+        <section>
+            <h2>new coord</h2>
+            <a href="/egl/coords">
+                <img src="/img/coords/2.jpg" class="homepage-coord-img">
+            </a>
+            <p>check my <a href="/egl/coords">coords</a>?</p>
+            <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
+        </section>
+        <section>
+            <h2>new item</h2>
+            <a href="/egl/handmade/shirred-skirt">
+                <img src="/img/wardrobe/main/shirring-skirt.PNG" class="homepage-coord-img">
+            </a>
+            <p>view my <a href="/egl/wardrobe">wardrobe</a>?</p>
+            <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
+        </section>
+    </div>
 </main>
-<?php include($_SERVER["DOCUMENT_ROOT"].'/nav.html'); ?>
-<?php include($_SERVER["DOCUMENT_ROOT"].'/footer.html'); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"].'/layout/footer.php'); ?>

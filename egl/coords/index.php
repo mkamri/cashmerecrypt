@@ -1,7 +1,5 @@
 <?php 
-    include($_SERVER["DOCUMENT_ROOT"].'/header.html'); 
-    include($_SERVER["DOCUMENT_ROOT"].'/lib/Parsedown.php');
-    $Parsedown = new Parsedown();
+    include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php'); 
 
     // Get the content & metadata
     $c2018  = file_get_contents('2018.md');
@@ -26,5 +24,5 @@
         <?= $Parsedown->text($c2016) ?>
     </section>
 </main>
-<?php include($_SERVER["DOCUMENT_ROOT"].'/nav.html'); ?>
-<?php include($_SERVER["DOCUMENT_ROOT"].'/footer.html'); ?>
+
+<?php include($_SERVER["DOCUMENT_ROOT"].'/layout/footer.php'); ?>

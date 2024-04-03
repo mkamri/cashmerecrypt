@@ -1,5 +1,5 @@
 <?php 
-    include($_SERVER["DOCUMENT_ROOT"].'/header.html'); 
+    include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php'); 
 ?>
 <main>
     <section>
@@ -69,6 +69,10 @@
                 target="_blank">
                 <img src="/img/buttons/seraphinelle.gif">
             </a> 
+            <a href="https://lovesick.cafe/" 
+                target="_blank">
+                <img src="/img/buttons/lovesick.gif">
+            </a> 
             <a href="https://frump.zone/" 
                 target="_blank">
                 <img src="/img/buttons/frumpzone.gif">
@@ -136,6 +140,5 @@
     </section>
 </main>
 <?php 
-    include($_SERVER["DOCUMENT_ROOT"].'/nav.html');
-    include($_SERVER["DOCUMENT_ROOT"].'/footer.html'); 
+    include($_SERVER["DOCUMENT_ROOT"].'/layout/footer.php'); 
 ?>

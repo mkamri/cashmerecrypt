@@ -1,7 +1,5 @@
 <?php 
-    include($_SERVER["DOCUMENT_ROOT"].'/header.html'); 
-    include($_SERVER["DOCUMENT_ROOT"].'/lib/Parsedown.php');
-    $Parsedown = new Parsedown();
+    include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php'); 
 
     // Get the slug associated with the post
     $slugs = explode("/", parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH));
@@ -42,5 +40,5 @@
         <?= $Parsedown->text($content) ?>
     </article>
 </main>
-<?php include($_SERVER["DOCUMENT_ROOT"].'/nav.html'); ?>
-<?php include($_SERVER["DOCUMENT_ROOT"].'/footer.html'); ?>
+
+<?php include($_SERVER["DOCUMENT_ROOT"].'/layout/footer.php'); ?>

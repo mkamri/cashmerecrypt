@@ -33,43 +33,43 @@
             "Yoke Switching Short Sleeve Blouse": {
                 "brand": "Metamorphose",
                 "year": 2009,
-                "lolibrary": "https://lolibrary.org/items/meta-yoke-switching-short-sleeve-blous",
-                "img": "/img/wardrobe/blouses/meta-blouse.png",
+                "lolibrary": "https://lolibrary.org/items/meta-yoke-switching-short-sleeve-blouse",
+                "img": "/img/wardrobe/blouses/meta-blouse.PNG",
                 "aspectratio": "1/1"
             },
             "Heart Blouse": {
                 "brand": "Taobao",
                 "year": null,
                 "lolibrary": null,
-                "img": "/img/wardrobe/blouses/heart-blouse.png",
+                "img": "/img/wardrobe/blouses/heart-blouse.PNG",
                 "aspectratio": "1/1"
             },
             "Long Sleeve Blouse": {
                 "brand": "Taobao",
                 "year": null,
                 "lolibrary": null,
-                "img": "/img/wardrobe/blouses/long-sleeve.png",
+                "img": "/img/wardrobe/blouses/long-sleeve.PNG",
                 "aspectratio": "1/1"
             },
             "Candleabra Cutsew": {
                 "brand": "Moi Meme Moitie",
                 "year": 2022,
                 "lolibrary": "https://lolibrary.org/items/moitie-candelabra-embroidery-puff-sleeve-cutsew",
-                "img": "/img/wardrobe/blouses/moitie-cutsew.png",
+                "img": "/img/wardrobe/blouses/moitie-cutsew.PNG",
                 "aspectratio": "1/1"
             },
             "Bat Cutsew": {
                 "brand": "The Black Ribbon",
                 "year": 2021,
                 "lolibrary": "https://lolibrary.org/items/indie-the-black-ribbon-batty-top-cutsew",
-                "img": "/img/wardrobe/blouses/bat-cutsew.png",
+                "img": "/img/wardrobe/blouses/bat-cutsew.PNG",
                 "aspectratio": "1/1"
             },
             "Cutsew": {
                 "brand": "Emily Temple Cute",
                 "year": null,
                 "lolibrary": null,
-                "img": "/img/wardrobe/blouses/etc-cutsew.png",
+                "img": "/img/wardrobe/blouses/etc-cutsew.PNG",
                 "aspectratio": "1/1"
             }
         }
@@ -80,19 +80,19 @@
                 "brand": "Alice and the Pirates",
                 "year": 2012,
                 "lolibrary": "https://lolibrary.org/items/aatp-ap-school-cardigan-2012",
-                "img": "/img/wardrobe/outerwear/aatp.png"
+                "img": "/img/wardrobe/outerwear/aatp.PNG"
             },
             "Lace Cardigan": {
                 "brand": "Black Peace Now",
                 "year": null,
                 "lolibrary": null,
-                "img": "/img/wardrobe/outerwear/bpn-lace.png"
+                "img": "/img/wardrobe/outerwear/bpn-lace.PNG"
             },
             "Cardigan": {
                 "brand": "An Another Angelus",
                 "year": null,
                 "lolibrary": null,
-                "img": "/img/wardrobe/outerwear/angelus.png"
+                "img": "/img/wardrobe/outerwear/angelus.PNG"
             }
         }
     },
@@ -108,7 +108,7 @@
                 "brand": "Lady Sloth",
                 "year": 2018,
                 "lolibrary": "https://lolibrary.org/items/indie-lady-sloth-bat-rhapsody-headdress",
-                "img": "/img/wardrobe/accessories/headwear/bat.png"
+                "img": "/img/wardrobe/accessories/headwear/bat.PNG"
             }
         }
     },

@@ -1,5 +1,5 @@
 <?php 
-    include($_SERVER["DOCUMENT_ROOT"].'/header.html'); 
+    include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php'); 
 
     $posts = json_decode(file_get_contents($_SERVER["DOCUMENT_ROOT"].'/garden/posts.json'));
 ?>
@@ -21,5 +21,5 @@
         </ul>
     </section>
 </main>
-<?php include($_SERVER["DOCUMENT_ROOT"].'/nav.html'); ?>
-<?php include($_SERVER["DOCUMENT_ROOT"].'/footer.html'); ?>
+
+<?php include($_SERVER["DOCUMENT_ROOT"].'/layout/footer.php'); ?>

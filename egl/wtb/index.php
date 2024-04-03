@@ -1,5 +1,5 @@
 <?php 
-    include($_SERVER["DOCUMENT_ROOT"].'/header.html'); 
+    include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php'); 
 
     $wishlist = json_decode(file_get_contents($_SERVER["DOCUMENT_ROOT"].'/egl/wtb/wishlist.json'));
 ?>
@@ -27,5 +27,5 @@
         </section>
     <?php endforeach; ?>
 </main>
-<?php include($_SERVER["DOCUMENT_ROOT"].'/nav.html'); ?>
-<?php include($_SERVER["DOCUMENT_ROOT"].'/footer.html'); ?>
+
+<?php include($_SERVER["DOCUMENT_ROOT"].'/layout/footer.php'); ?>

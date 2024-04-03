@@ -1,31 +1,40 @@
 <?php 
-    include($_SERVER["DOCUMENT_ROOT"].'/header.html'); 
+    include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php'); 
     $posts = json_decode(file_get_contents($_SERVER["DOCUMENT_ROOT"].'/garden/posts.json'));
 ?>
 <main>
     <section>
         <h1>my collection</h1>
         <div id="egl-collection--nav">
-            <a href="/egl/handmade">
-                <img src="/img/assets/handmade--btn.png"
-                     class="egl-collection--nav-img"
-                     />
-            </a>
-            <a href="/egl/wardrobe">
-                <img src="/img/assets/wardrobe--btn.png"
-                     class="egl-collection--nav-img"
-                     />
-            </a>
-            <a href="/egl/wtb">
-                <img src="/img/assets/wtb--btn.png"
-                     class="egl-collection--nav-img"
-                     />
-            </a>
-            <a href="/egl/coords">
-                <img src="/img/assets/coords--btn.png"
-                     class="egl-collection--nav-img"
-                     />
-            </a>
+            <div>
+                <a href="/egl/handmade">
+                    <img src="/img/assets/handmade--btn.png"
+                         class="egl-collection--nav-img"
+                         />
+                </a>
+
+            </div>
+            <div>
+                <a href="/egl/wardrobe">
+                    <img src="/img/assets/wardrobe--btn.png"
+                         class="egl-collection--nav-img"
+                         />
+                </a>
+            </div>
+            <div>
+                <a href="/egl/wtb">
+                    <img src="/img/assets/wtb--btn.png"
+                         class="egl-collection--nav-img"
+                         />
+                </a>
+            </div>
+            <div>
+                <a href="/egl/coords">
+                    <img src="/img/assets/coords--btn.png"
+                         class="egl-collection--nav-img"
+                         />
+                </a>
+            </div>
         </div>
     </section>
     <article>
@@ -89,5 +98,5 @@
         </ul>
     </section>
 </main>
-<?php include($_SERVER["DOCUMENT_ROOT"].'/nav.html'); ?>
-<?php include($_SERVER["DOCUMENT_ROOT"].'/footer.html'); ?>
+
+<?php include($_SERVER["DOCUMENT_ROOT"].'/layout/footer.php'); ?>

@@ -10,22 +10,33 @@
     font-family: 'Cthulhumbus Arcade'; 
     src: url('/fonts/JMHCthulhumbusArcadeUG.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Venice Classic'; 
+    src: url('/fonts/VeniceClassic.ttf') format('truetype');
+}
 
 :root {
     --spacing: .5rem;
 }
 
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #040d5e #000000;
+    
+}
+
 html {
-    background-color: #2a2a37;
+    background-color: #1b1b1f;
 }
 
 body {
-    font-family: 'Pixel Operator Mono', monospace;
-    max-width: 768px;
+    font-family: 'Garamond', serif;
+    width: 768px;
     margin: 0 auto;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 0.07em;
+    padding-bottom: 2rem;
 }
 
 h1,
@@ -98,6 +109,7 @@ header {
     background-color: #000000;
     padding: 2rem;
     text-align: center;
+    margin-bottom: var(--spacing);
 }
 
 header h1 {
@@ -114,30 +126,6 @@ header figure {
     display: grid;
     grid-template-columns: 550px 1fr;
     grid-gap: var(--spacing);
-    margin-top: var(--spacing);
-}
-/* media queries for mobile site layout */
-@media screen and (max-width: 768px) {
-    #container {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    #side-panel {
-        grid-row-start: 1;
-    }
-    nav ul {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    nav ul li {
-        white-space: nowrap;
-    }
-    nav ul li{
-        margin: .75rem;
-    }
-    #status {
-        display: none;
-    }
 }
 
 main > * + *,
@@ -157,8 +145,38 @@ nav li:before {
     padding-right: 5px;
 }
 
-#status {
+.widget {
     font-size: .8rem;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+.widget--short {
+    font-size: .8rem;
+    max-height: 150px;
+    overflow-y: scroll;
+}
+
+.homepage-grid {
+    display: grid;
+    grid-gap: var(--spacing);
+    margin-top: var(--spacing);
+}
+.homepage-grid--2 {
+    grid-template-columns: 1fr 1fr;
+}
+.homepage-grid--3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.homepage-coord-img {
+    width: 100%;
+    height: 250px;
+    object-fit: scale-down;
+    transition: all .2s ease-in;
+}
+.homepage-coord-img:hover {
+    webkit-filter: blur(1px); /* Chrome, Safari, Opera */
+    filter: blur(1px);
 }
 
 footer {
@@ -192,6 +210,16 @@ section #button-container * {
     padding: 1px;
 }
 
+.buttonHTML {
+    font-family: 'Pixel Operator Mono', monospace;
+    width: 88px;
+    font-size: 10px;
+    background-color: #040d5e;
+    color: #ffffff;
+    margin-top: .5rem;
+    border: 1px solid #ffffff;
+}
+
 /**
  * garden
  */
@@ -220,12 +248,6 @@ article img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: var(--spacing);
-}
-@media screen and (max-width: 550px)
-{
-    .artwork-grid {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
 }
 
 .artwork-thumb {
@@ -325,4 +347,35 @@ article img {
 
 #webrings > * {
     margin-right: var(--spacing);
+}
+
+/**
+ * DIARY
+ */
+.diary-entry {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-gap: var(--spacing);
+}
+
+.diary-image {
+    width: 150px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
+.diary-info {
+    font-size: 12px;
+}
+
+.diary-content {
+    border: 1px solid #ffffff;
+    padding: 1rem;
+    height: 666px;
+    overflow-y: scroll;
+}
+
+.diary-signature {
+    text-align: right;
+    margin-top: 2rem;
 }
