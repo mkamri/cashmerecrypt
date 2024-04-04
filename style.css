@@ -212,11 +212,10 @@ section #button-container * {
 
 .buttonHTML {
     font-family: 'Pixel Operator Mono', monospace;
-    width: 88px;
+    width: 82px;
     font-size: 10px;
     background-color: #040d5e;
     color: #ffffff;
-    margin-top: .5rem;
     border: 1px solid #ffffff;
 }
 
@@ -373,6 +372,11 @@ article img {
     padding: 1rem;
     height: 666px;
     overflow-y: scroll;
+}
+
+.diary-content h1,
+.diary-signature {
+    font-family: 'Venice Classic', cursive;
 }
 
 .diary-signature {

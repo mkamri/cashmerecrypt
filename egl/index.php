@@ -95,6 +95,35 @@
                     Plus-Size Resources
                 </a>
             </li>
+            <li>
+                <a href="http://mintkismet.blogspot.com/2015/08/lolita-posing-101.html?m=1"
+                   target="_blank">
+                    How to Pose in Lolita
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h1>iceberg reading</h1>
+        <ul>
+            <li>
+                <a href="http://rufflecloud.blogspot.com/2016/12/momokos-wardrobe.html?m=1"
+                   target="_blank">
+                    Momoko's Wardrobe
+                </a>
+            </li>
+            <li>
+                <a href="https://web.archive.org/web/20080919214537/http://hillieras.ld.infoseek.co.jp/gothloli/fuman.html"
+                   target="_blank">
+                    2001 Japanese Lolitas Complain Translation
+                </a>
+            </li>
+            <li>
+                <a href="https://sullensixxpence.blogspot.com/2023/10/forgotten-garden.html"
+                   target="_blank">
+                    Forgotten Garden Lolita Archives
+                </a>
+            </li>
         </ul>
     </section>
 </main>

@@ -3,14 +3,16 @@
 ?>
 <main>
     <section>
-        <h1>me</h1>
+        <h1>my button</h1>
         <a href="https://cashmerecrypt.art"
            target="_blank">
             <img src="/img/buttons/cashmere-crypt-badge.gif"/>
         </a>
-        <textarea>&lt;a href=&quot;https:&#x2F;&#x2F;cashmerecrypt.art&quot; target=&quot;_blank&quot;&gt;
-    &lt;img src=&quot;https:&#x2F;&#x2F;cashmerecrypt.art&#x2F;img&#x2F;buttons&#x2F;cashmere-crypt-badge.gif&quot;&#x2F;&gt;
-&lt;&#x2F;a&gt;</textarea>
+        <div>
+            <textarea class="buttonHTML">&lt;a href=&quot;https:&#x2F;&#x2F;cashmerecrypt.art&quot; target=&quot;_blank&quot;&gt;
+        &lt;img src=&quot;https:&#x2F;&#x2F;cashmerecrypt.art&#x2F;img&#x2F;buttons&#x2F;cashmere-crypt-badge.gif&quot;&#x2F;&gt;
+    &lt;&#x2F;a&gt;</textarea>
+        </div>
     </section>
     <section>
         <h1>my friends</h1>
@@ -128,13 +130,30 @@
         </div>
     </section>
     <section>
-        <h1>articles</h1>
+        <h1>"socials"</h1>
         <ul>
             <li>
-                <a href="https://bikobatanari.art/posts/2022/create-something-terrible"
+                <a href="https://www.side7.com/u/cashmere_crypt/profile"
                    target="_blank">
-                    Create Something Terrible
-                </a> - bikobatanari
+                    Side7
+                </a> - share ur art // deviantart replacement, makes me feel like it's 2009 again // under construction ^^
+            </li>
+            <li>
+                <a href="https://www.gaiaonline.com/profiles/cashmere-crypt/"
+                   target="_blank">
+                    Deviantart
+                </a> - add me! <3
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h1>resources</h1>
+        <ul>
+            <li>
+                <a href="https://emojicombos.com/"
+                   target="_blank">
+                    Emoji Combos
+                </a> - where I get all my sick emojis from ദ്ദി ˉ͈̀꒳ˉ͈́ )✧
             </li>
         </ul>
     </section>
