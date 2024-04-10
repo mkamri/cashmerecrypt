@@ -383,3 +383,37 @@ article img {
     text-align: right;
     margin-top: 2rem;
 }
+
+/**
+ * SKILLTREE
+ */
+
+#skilltree {
+    font-family: 'Pixel Operator Mono Bold', monospace;
+}
+
+.skilltree--bar {
+    width: 100%;
+    height: 25px;
+    border: 1px solid #ffffff;
+    position: relative;
+    margin-bottom: var(--spacing);
+}
+
+.skilltree--bar-filler {
+    width: var(--skilltree-percent);
+    height: 25px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 12px;
+}
+
+.skilltree--container > p {
+    margin: 0;
+}

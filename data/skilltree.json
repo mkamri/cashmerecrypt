@@ -1,0 +1,35 @@
+{
+    "art": {
+        "skills": {
+            "illustration": 706,
+            "painting": 290,
+            "blender": 50
+        },
+        "projects": {
+
+        },
+        "updated": "2024-04-09"
+    },
+    "japanese": {
+        "skills": {
+            "kanji": 114,
+            "conversation": 604,
+            "grammar": 100
+        },
+        "updated": "2024-04-09"
+    },
+    "programming": {
+        "skills": {
+            "frontend": 5067,
+            "backend": 3033
+        },
+        "updated": "2024-04-09"
+    },
+    "tailoring": {
+        "skills": {
+            "sewing": 20,
+            "pattern drafting": 3
+        },
+        "updated": "2024-04-09"
+    }
+}

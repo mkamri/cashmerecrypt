@@ -8,6 +8,22 @@
     $diaries = json_decode(file_get_contents($_SERVER["DOCUMENT_ROOT"]."/data/diary.json"), true);
     $diaryDate = array_key_first($diaries);
     $diary = reset($diaries);
+
+
+    $skilltree = json_decode(file_get_contents($_SERVER["DOCUMENT_ROOT"]."/data/skilltree.json"), true);
+    foreach($skilltree as &$details)
+    {
+        $details['totalTime'] = 0;
+        foreach($details['skills'] as $skillTime)
+        {
+            $details['totalTime'] += $skillTime;
+        }
+        $details['percent'] = ($details['totalTime'] / 10000) * 100;
+        if($details['percent'] > 100)
+        {
+            $details['percent'] = 100;
+        }
+    }
 ?>
 <main>
     <section id="welcome">
@@ -58,5 +74,21 @@
             <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
         </section>
     </div>
+
+    <section id="skilltree">
+        <h2>my skilltree</h2>
+        <?php foreach($skilltree as $ability => $info): ?>
+            <div class="skilltree--container">
+                <p><?= $ability ?></p>
+                <div class="skilltree--bar">
+                    <div class="skilltree--bar-filler"
+                         style="--skilltree-percent: <?= $info['percent'] ?>%">
+                        <?= number_format($info['totalTime']) ?> xp
+                    </div>
+                </div>
+            </div>
+        <?php endforeach; ?>
+        <p>1 XP = 1 hour of practice</p>
+    </section>
 </main>
 <?php include($_SERVER["DOCUMENT_ROOT"].'/layout/footer.php'); ?>
