@@ -86,7 +86,7 @@ function log_server_activity()
     $IPCity = null;
     if($IPAddress && $IPAddress != '127.0.0.1')
     {
-        $loc = json_decode(file_get_contents('https://ipapi.co/'.$IPAddress.'/json/'));
+        $loc = json_decode(file_get_contents('https://ipapi.co/'.$IPAddress.'/json/?key='.KEY_IPAPI));
         if($loc && !$loc->error)
         {
             $IPCountry = substr($loc->country_name, 0, 99);
