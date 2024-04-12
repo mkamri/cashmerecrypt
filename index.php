@@ -23,6 +23,10 @@
         {
             $details['percent'] = 100;
         }
+
+        $details['level'] = $details['percent'] >= 1 
+            ? 'level '.number_format($details['percent'])
+            : 'tutorial';
     }
 ?>
 <main>
@@ -76,14 +80,19 @@
     </div>
 
     <section id="skilltree">
-        <h2>my skilltree</h2>
+        <h2>class skills</h2>
         <?php foreach($skilltree as $ability => $info): ?>
             <div class="skilltree--container">
-                <p><?= $ability ?></p>
+                <div class="skilltree--header">
+                    <p><?= $ability ?></p>
+                    <p><?= $info['level'] ?></p>
+                </div>
                 <div class="skilltree--bar">
                     <div class="skilltree--bar-filler"
                          style="--skilltree-percent: <?= $info['percent'] ?>%">
-                        <?= number_format($info['totalTime']) ?> xp
+                    </div>
+                    <div class="skilltree--bar-text">
+                        <?= number_format($info['totalTime']) ?> / 10,000
                     </div>
                 </div>
             </div>

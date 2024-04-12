@@ -388,10 +388,6 @@ article img {
  * SKILLTREE
  */
 
-#skilltree {
-    font-family: 'Pixel Operator Mono Bold', monospace;
-}
-
 .skilltree--bar {
     width: 100%;
     height: 25px;
@@ -403,17 +399,34 @@ article img {
 .skilltree--bar-filler {
     width: var(--skilltree-percent);
     height: 25px;
-    background-color: #ffffff;
+    background-color: #051394;
     position: absolute;
     top: 0;
     left: 0;
+}
+.skilltree--bar-text {
+    height: 25px;
+    position: absolute;
+    top: 0;
+    left: .5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #000000;
     font-size: 12px;
+    margin: 1px 0 0 0;
 }
 
-.skilltree--container > p {
+.skilltree--container {
+    margin-bottom: 1rem;
+}
+
+.skilltree--container p {
     margin: 0;
+}
+
+.skilltree--header {
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Pixel Operator Mono Bold', monospace;
 }
