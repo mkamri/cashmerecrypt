@@ -1,7 +1,7 @@
 {
     "art": {
         "skills": {
-            "illustration": 706,
+            "illustration": 707,
             "painting": 290,
             "blender": 50
         },
@@ -14,16 +14,16 @@
         "skills": {
             "kanji": 114,
             "conversation": 604,
-            "grammar": 100
+            "grammar": 401
         },
-        "updated": "2024-04-09"
+        "updated": "2024-04-11"
     },
     "programming": {
         "skills": {
-            "frontend": 5067,
+            "frontend": 4061,
             "backend": 3033
         },
-        "updated": "2024-04-09"
+        "updated": "2024-04-11"
     },
     "tailoring": {
         "skills": {
