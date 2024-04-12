@@ -1,4 +1,11 @@
 {
+    "what-to-draw": {
+        "title": "What to Draw",
+        "type": "art",
+        "excerpt": "A collection of things to draw when you can't think of what to draw",
+        "plantedOn": "2024-04-09 22:53:00",
+        "updatedOn": null
+    },
     "100-questions": {
         "title": "100 Lolita Questions",
         "type": "lolita",
@@ -41,7 +48,7 @@
     },
     "art-prompt-sad": {
         "title": "Sad Art Prompts",
-        "type": "art prompts",
+        "type": "art",
         "excerpt": "What to draw to get you through a sad day",
         "plantedOn": "2023-09-13 19:00:00"
     }
