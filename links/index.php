@@ -141,7 +141,7 @@
             <li>
                 <a href="https://www.gaiaonline.com/profiles/cashmere-crypt/"
                    target="_blank">
-                    Deviantart
+                    Gaia Online
                 </a> - add me! <3
             </li>
         </ul>

@@ -106,3 +106,81 @@ function log_server_activity()
         wh_log($e->getMessage());
     }
 }
+
+function getGuildData()
+{
+    $dashboard = [];
+
+    // GUILD MEMBERS
+    try
+    {
+        $pdo = pdo_connect();
+        $sql = "
+            SELECT GuildMembers.id,
+                    GuildMembers.Name,
+                    GuildClasses.Name as ClassName,
+                    URL,
+                    ProfileImg,
+                    SUM(GuildMemberActivityLog.XPEarned) AS XP
+            FROM GuildMembers
+            INNER JOIN GuildClasses ON GuildClasses.id = GuildMembers.PrimaryClassID
+            INNER JOIN GuildMemberActivityLog ON GuildMemberActivityLog.MemberID = GuildMembers.id
+            WHERE StatusID = 1
+            GROUP BY GuildMembers.Name, GuildClasses.Name, URL, ProfileImg, GuildMembers.id
+            ORDER BY XP DESC
+        ";
+        $stmt = $pdo->query($sql);
+        while ($row = $stmt->fetch()) {
+            $guildMember = $row;
+            $guildMember['levelData'] = getGuildLevelByXP($guildMember['XP'], true);
+            $dashboard['guildMembers'][] = $guildMember;
+        };
+    }
+    catch (Exception $e)
+    {
+        wh_log($e->getMessage());
+    }
+
+    // CURRENT XP
+    try
+    {
+        $pdo = pdo_connect();
+        // Find XP earned by challenge
+        $sql = "
+            SELECT SUM(XPEarned)
+            from GuildMemberActivityLog
+        ";
+        $stmt= $pdo->prepare($sql);
+        $stmt->execute();
+        $dashboard['currentXP'] = $stmt->fetchColumn();
+    }
+    catch (Exception $e)
+    {
+        wh_log($e->getMessage());
+    }
+
+    // CURRENT LEVEL
+    $dashboard['levelData'] = getGuildLevelByXP($dashboard['currentXP']);
+
+    return $dashboard;
+}
+
+function getGuildLevelByXP($guildXP, $isForMember = false)
+{
+    $modifier = $isForMember ? 10 : 100;
+
+    $currentLevel = number_format(sqrt($guildXP * $modifier) / $modifier);
+    $totalPointsToNext = pow((($currentLevel + 1) * $modifier), 2) / $modifier;
+    $pointsToNext = $totalPointsToNext - $guildXP;
+    $percentComplete = ($pointsToNext / $totalPointsToNext) * $modifier;
+
+    $arr = [
+        'currentLevel' => $currentLevel,
+        'currentPoints' => $guildXP,
+        'pointsRemainingToNext' => $pointsToNext,
+        'totalPointsToNext' => $totalPointsToNext,
+        'percentComplete' => $percentComplete
+    ];
+
+    return $arr;
+};

@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --spacing: .5rem;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #040d5e #000000;
+    font-size: 14px;
+}
+
+html {
+    background-color: #000000;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.07em;
+    padding-bottom: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+time {
+    font-family: 'Cormorant Garamond';
+    font-weight: 200;
+    letter-spacing: .2rem;
+    margin: 2rem 0 .5rem 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.75rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin-top: 0;
+    letter-spacing: .1rem;
+    line-height: 2;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    transition: color .2s ease-in;
+    color: #ffffff;
+    letter-spacing: .1rem;
+}
+a:hover {
+    color: #c5c5c5;
+}
+
+li {
+    line-height: 1.3rem;
+    vertical-align: middle;
+}
+
+ul > li > ul {
+    margin-left: 1rem;
+}
+
+header {
+    background-color: #000000;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1rem;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+section
+{
+    margin-bottom: 4rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+}
+
+#nav-branding {
+    font-family: 'Cormorant Garamond';
+    font-weight: 200;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.top-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: .8rem;
+    margin-bottom: -1rem;
+}
+
+.nav li:not(:last-child)
+{
+    margin-right: 1.5rem;
+}
+
+.nav li a
+{
+    font-size: .8rem;
+}
+
+#hero {
+    position: relative;
+    height: 500px;
+}
+
+#hero--img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 65% 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#hero--content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 10;
+    position: relative;
+}
+
+#hero--content h1 {
+    font-family: 'Cormorant Garamond';
+    font-weight: 200;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 500px)
+{
+    #hero--content p {
+        font-size: .8rem;
+    }
+}
+
+.skilltree--bar {
+    width: 100%;
+    height: 25px;
+    border: 1px solid #ffffff;
+    position: relative;
+    margin-bottom: var(--spacing);
+}
+
+.skilltree--bar-filler {
+    width: var(--skilltree-percent);
+    height: 25px;
+    background-color: #434343;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.skilltree--bar-text {
+    height: 25px;
+    position: absolute;
+    top: 0;
+    left: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin: 1px 0 0 0;
+}
+
+.skilltree--container {
+    margin-bottom: 1rem;
+}
+
+.skilltree--container p {
+    margin: 0;
+}
+
+.skilltree--header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+}
+
+@media screen and (max-width: 768px)
+{
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.guild-member {
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #434343;
+    margin-bottom: .5rem;
+}
+
+.guild-member--profile {
+    display: flex;
+    align-items: center
+}
+
+.guild-member--profile-pic {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.guild-member p {
+    margin-bottom: 0;
+}
+
+p.guild-member--class em {
+    font-size: .8rem;
+}
+
+.photo-scale-down {
+    width: 100%;
+    object-fit: scale-down;
+}
+
+.photo-cover {
+    width: 100%;
+    object-fit: cover;
+}

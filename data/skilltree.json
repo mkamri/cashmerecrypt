@@ -20,16 +20,16 @@
     },
     "programming": {
         "skills": {
-            "frontend": 4061,
-            "backend": 3033
+            "frontend": 4069,
+            "backend": 3046
         },
-        "updated": "2024-04-11"
+        "updated": "2024-04-18 5:15 PM"
     },
     "tailoring": {
         "skills": {
-            "sewing": 20,
+            "sewing": 35,
             "pattern drafting": 3
         },
-        "updated": "2024-04-09"
+        "updated": "2024-04-17 9:30 AM"
     }
 }
