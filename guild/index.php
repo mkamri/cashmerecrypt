@@ -11,7 +11,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/guild/guild.css?t=5">
+    <link rel="stylesheet" href="/guild/guild.css?t=6">
     <link rel="icon" href="/img/favicon.gif" type="image/gif" />
     <link rel="author" href="/humans.txt" />
     <title>𝔗𝔥𝔢 𝔘𝔫𝔟𝔬𝔲𝔫𝔡 ℭ𝔯𝔢𝔴</title>
@@ -34,7 +34,8 @@
         </ul>
     </header>
     <div id="hero">
-        <img src="/img/guild/hero.jpg" id="hero--img">
+        <img src="/img/guild/hero-img.png" id="hero--img" class="hero--background">
+        <img src="/img/guild/hero-mobile.png" id="hero--img-mobile" class="hero--background">
         <div id="hero--content" class="container">
             <h2 class="top-header">Level <?= $guild['levelData']['currentLevel'] ?></h2>
             <h1>Artists Guild</h1>
