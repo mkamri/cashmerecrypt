@@ -1,6 +1,18 @@
 {
     "main pieces": {
         "pieces": {
+            "Emblem Gate JSK": {
+                "brand": "Candelabra Emblem Gate JSK",
+                "year": 2022,
+                "lolibrary": "https://lolibrary.org/items/moitie-candelabra-emblem-gate-jumper-skirt",
+                "img": "/img/wardrobe/main/emblem-gate.png"
+            },
+            "Francoise Velveteen": {
+                "brand": "Bodyline",
+                "year": 2011,
+                "lolibrary": "https://lolibrary.org/items/bodyline-francoise-velveteen-op-l310",
+                "img": "/img/wardrobe/main/bodyline-op.PNG"
+            },
             "Shirred Ladder Lace Skirt": {
                 "brand": "Handmade by Me",
                 "year": 2024,
@@ -12,12 +24,6 @@
                 "year": 2010,
                 "lolibrary": "https://lolibrary.org/items/aatp-lace-flocky-skirt",
                 "img": "/img/wardrobe/main/miniskirt.PNG"
-            },
-            "Francoise Velveteen": {
-                "brand": "Bodyline",
-                "year": 2011,
-                "lolibrary": "https://lolibrary.org/items/bodyline-francoise-velveteen-op-l310",
-                "img": "/img/wardrobe/main/bodyline-op.PNG"
             }
         }
     },
@@ -76,6 +82,12 @@
     },
     "outerwear": {
         "pieces": {
+            "Hemera Sailor Cardigan": {
+                "brand": "Moi Meme Moitie",
+                "year": 2023,
+                "lolibrary": "https://lolibrary.org/items/moitie-hemera-sailor-cardigan",
+                "img": "/img/wardrobe/outerwear/hemera.png"
+            },
             "A/P School Cardigan": {
                 "brand": "Alice and the Pirates",
                 "year": 2012,
@@ -139,6 +151,16 @@
                 "year": 2023,
                 "lolibrary": "https://lolibrary.org/items/btssb-ribbon-otks-2023",
                 "img": "/img/wardrobe/accessories/legwear/ribbon-otks.png"
+            }
+        }
+    },
+    "inner": {
+        "pieces": {
+            "Long Bloomers": {
+                "brand": "Handmade by Me",
+                "year": 2024,
+                "lolibrary": "/egl/handmade/long-bloomers",
+                "img": "/img/wardrobe/inner/long-bloomers-bw.png"
             }
         }
     }
