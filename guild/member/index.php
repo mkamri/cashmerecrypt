@@ -16,9 +16,6 @@
     $member = $activity[$id];
 ?>
 
-<script>console.log(<?= json_encode($member) ?>)</script>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

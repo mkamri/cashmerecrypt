@@ -72,7 +72,6 @@
                 <h2 class="top-header">Members</h2>
                 <h1>Guild Leaderboard</h1>
                 <?php foreach($guild['guildMembers'] as $member): ?>
-                    <script>console.log(<?= json_encode($member) ?>)</script>
                     <a href="/guild/member/?id=<?= $member['id'] ?>">
                         <div class="guild-member">
                             <div class="guild-member--profile">
