@@ -29,7 +29,6 @@ h3,
 h4,
 h5,
 h6,
-strong,
 time {
     font-family: 'Cormorant Garamond';
     font-weight: 200;
@@ -75,8 +74,20 @@ li {
     vertical-align: middle;
 }
 
+hr {
+    color: #ffffff;
+    margin: 1rem 0;
+}
+
 ul > li > ul {
     margin-left: 1rem;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+.mb-2 {
+    margin-bottom: 1.5rem !important;
 }
 
 header {
@@ -102,6 +113,11 @@ header h1 {
 section
 {
     margin-bottom: 4rem;
+}
+
+flex-center {
+    display: flex;
+    justify-content: center;
 }
 
 .nav {
@@ -235,6 +251,14 @@ section
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 1rem;
+}
+.member-grid {
+    margin-top: 4rem;
+    grid-template-columns: 350px 1fr;
+}
+
+#guild-member-name {
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px)

@@ -4,8 +4,6 @@
     $guild = getGuildData();
 ?>
 
-<script>console.log(<?= json_encode($guild) ?>)</script>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,18 +72,21 @@
                 <h2 class="top-header">Members</h2>
                 <h1>Guild Leaderboard</h1>
                 <?php foreach($guild['guildMembers'] as $member): ?>
-                    <div class="guild-member">
-                        <div class="guild-member--profile">
-                            <img src="<?= $member['ProfileImg'] ?? '/img/guild/profile/default.jpg' ?>"
-                                 class="guild-member--profile-pic"
-                                 />
-                            <div>
-                                <p><?= $member['Name'] ?></p>
-                                <p class="guild-member--class"><em><?= $member['ClassName'] ?></em></p>
+                    <script>console.log(<?= json_encode($member) ?>)</script>
+                    <a href="/guild/member/?id=<?= $member['id'] ?>">
+                        <div class="guild-member">
+                            <div class="guild-member--profile">
+                                <img src="<?= $member['ProfileImg'] ?? '/img/guild/profile/default.jpg' ?>"
+                                    class="guild-member--profile-pic"
+                                    />
+                                <div>
+                                    <p><?= $member['Name'] ?></p>
+                                    <p class="guild-member--class"><em><?= $member['ClassName'] ?></em></p>
+                                </div>
                             </div>
+                            <p>Level <?= $member['levelData']['currentLevel'] ?></p>
                         </div>
-                        <p>Level <?= $member['levelData']['currentLevel'] ?></p>
-                    </div>
+                    </a>
                 <?php endforeach; ?>
             </section>
         </div>

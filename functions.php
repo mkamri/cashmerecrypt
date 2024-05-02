@@ -126,6 +126,7 @@ function getGuildData()
             INNER JOIN GuildClasses ON GuildClasses.id = GuildMembers.PrimaryClassID
             INNER JOIN GuildMemberActivityLog ON GuildMemberActivityLog.MemberID = GuildMembers.id
             WHERE StatusID = 1
+            AND GuildMemberActivityLog.PersonalXPOnly = 0
             GROUP BY GuildMembers.Name, GuildClasses.Name, URL, ProfileImg, GuildMembers.id
             ORDER BY XP DESC
         ";
@@ -148,7 +149,8 @@ function getGuildData()
         // Find XP earned by challenge
         $sql = "
             SELECT SUM(XPEarned)
-            from GuildMemberActivityLog
+            FROM GuildMemberActivityLog
+            WHERE GuildMemberActivityLog.PersonalXPOnly = 0
         ";
         $stmt= $pdo->prepare($sql);
         $stmt->execute();
@@ -172,7 +174,7 @@ function getGuildLevelByXP($guildXP, $isForMember = false)
     $currentLevel = number_format(sqrt($guildXP * $modifier) / $modifier);
     $totalPointsToNext = pow((($currentLevel + 1) * $modifier), 2) / $modifier;
     $pointsToNext = $totalPointsToNext - $guildXP;
-    $percentComplete = ($pointsToNext / $totalPointsToNext) * $modifier;
+    $percentComplete = ($guildXP / $totalPointsToNext) * 100;
 
     $arr = [
         'currentLevel' => $currentLevel,
@@ -184,3 +186,75 @@ function getGuildLevelByXP($guildXP, $isForMember = false)
 
     return $arr;
 };
+
+function getGuildActivity()
+{
+    $arr = [];
+    $pdo = pdo_connect();
+    $sql = "
+        SELECT ActivityID, ChallengeID, ClassID, MemberID, GuildClasses.Name, GuildMemberActivityLog.PersonalXPOnly, PrimaryClassID, XPEarned, ProfileImg, URL, GuildMembers.Name AS MemberName, GuildMembers.CreatedOn
+        FROM GuildMemberActivityLog
+        INNER JOIN GuildMembers ON GuildMembers.id = GuildMemberActivityLog.MemberID
+        LEFT JOIN GuildClassActivities ON GuildClassActivities.id = GuildMemberActivityLog.ActivityID
+        LEFT JOIN GuildClasses ON GuildClasses.id = GuildClassActivities.ClassID
+    ";
+    $stmt = $pdo->query($sql);
+    while ($row = $stmt->fetch()) {
+        $memberID = $row['MemberID'];
+        $classID = $row['ClassID'];
+
+        if(!isset($arr[$memberID]))
+        {
+            $arr[$memberID] = [
+                'guildXP' => 0,
+                'totalXP' => 0,
+                'subclassXP' => [],
+                'profileImg' => $row['ProfileImg'],
+                'name' => $row['MemberName'],
+                'url' => $row['URL'],
+                'joinDate' => $row['CreatedOn']
+            ];
+        }
+
+        // add to total XP
+        $arr[$memberID]['totalXP'] += $row['XPEarned'];
+        if(!$row['PersonalXPOnly'])
+        {
+            $arr[$memberID]['guildXP'] += $row['XPEarned'];
+        }
+
+        if($classID)
+        {
+            if(!isset($arr[$memberID]['subclassXP'][$classID]))
+            {
+                $arr[$memberID]['subclassXP'][$classID] = [
+                    'class' => $row['Name'],
+                    'guildXP' => 0,
+                    'totalXP' => 0
+                ];
+            }
+    
+            // add to guild XP
+            $arr[$memberID]['subclassXP'][$classID]['totalXP'] += $row['XPEarned'];
+            if(!$row['PersonalXPOnly'])
+            {
+                $arr[$memberID]['subclassXP'][$classID]['guildXP'] += $row['XPEarned'];
+            }
+        }
+
+        $arr[$memberID]['guildLevel'] = getGuildLevelByXP($arr[$memberID]['guildXP'], true);
+        
+    };
+
+    foreach($arr as &$member)
+    {
+        //$member['subclassXP'] =  array_values($member['subclassXP']);
+        usort ($member['subclassXP'], function ($a,$b) {
+                return intval($b['totalXP']) <=> intval($a['totalXP']);
+            }
+        ); 
+    }
+    
+
+    return $arr;
+}
