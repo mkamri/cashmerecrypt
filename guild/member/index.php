@@ -74,12 +74,12 @@
                 </div>
             </section>
 
-            <section>
-                <p class="mb-0"><strong>About</strong></p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-            </section>
+            <?php if($member['bio']): ?>
+                <section>
+                    <p class="mb-0"><strong>About</strong></p>
+                    <?= $member['bio'] ?>
+                </section>
+            <?php endif; ?>
 
             <?php if($member['url']): ?>
                 <section>

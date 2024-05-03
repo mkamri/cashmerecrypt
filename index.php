@@ -32,7 +32,7 @@
 <main>
     <section id="welcome">
         <h1>welcome</h1>
-        <p>Welcome to <strong>Cashmere Crypt</strong>, my little corner of the internet. This site has been purposefully un-optimized for mobile. Please come back on your PC or enjoy the side-scroll  ˶ᵔ ᵕ ᵔ˶ </p>
+        <p>Welcome to <strong>Cashmere Crypt</strong>, my little corner of the internet. This site has been purposefully un-optimized for mobile. Please come back on your PC or enjoy the side-scroll  ˶ᵔ ᵕ ᵔ˶</p>
         <p>I'm an programmer by day, artist by night, and weekender gothic lolita. I love to discuss philosophy, taxonomy, counterculture, art, and the nature of life itself.</p>
         <p>This site is my personal space to share my favorite clothing, thoughts about life, and whatever happens to interest me. Enjoy your stay! ˚ʚ𓉸ྀིɞ˚</p>
     </section>
@@ -64,15 +64,15 @@
         <section>
             <h2>new coord</h2>
             <a href="/egl/coords">
-                <img src="/img/coords/2.jpg" class="homepage-coord-img">
+                <img src="/img/coords/3.jpg" class="homepage-coord-img">
             </a>
             <p>check my <a href="/egl/coords">coords</a>?</p>
             <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
         </section>
         <section>
             <h2>new item</h2>
-            <a href="/egl/handmade/shirred-skirt">
-                <img src="/img/wardrobe/main/shirring-skirt.PNG" class="homepage-coord-img">
+            <a href="/egl/wardrobe">
+                <img src="/img/wardrobe/inner/long-bloomers-bw.png" class="homepage-coord-img">
             </a>
             <p>view my <a href="/egl/wardrobe">wardrobe</a>?</p>
             <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>

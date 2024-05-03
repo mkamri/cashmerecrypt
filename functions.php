@@ -192,7 +192,7 @@ function getGuildActivity()
     $arr = [];
     $pdo = pdo_connect();
     $sql = "
-        SELECT ActivityID, ChallengeID, ClassID, MemberID, GuildClasses.Name, GuildMemberActivityLog.PersonalXPOnly, PrimaryClassID, XPEarned, ProfileImg, URL, GuildMembers.Name AS MemberName, GuildMembers.CreatedOn
+        SELECT ActivityID, ChallengeID, ClassID, MemberID, GuildClasses.Name, GuildMemberActivityLog.PersonalXPOnly, PrimaryClassID, XPEarned, ProfileImg, URL, GuildMembers.Name AS MemberName, GuildMembers.CreatedOn, Bio
         FROM GuildMemberActivityLog
         INNER JOIN GuildMembers ON GuildMembers.id = GuildMemberActivityLog.MemberID
         LEFT JOIN GuildClassActivities ON GuildClassActivities.id = GuildMemberActivityLog.ActivityID
@@ -212,7 +212,8 @@ function getGuildActivity()
                 'profileImg' => $row['ProfileImg'],
                 'name' => $row['MemberName'],
                 'url' => $row['URL'],
-                'joinDate' => $row['CreatedOn']
+                'joinDate' => $row['CreatedOn'],
+                'bio' => $row['Bio']
             ];
         }
 

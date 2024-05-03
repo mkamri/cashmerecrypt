@@ -116,6 +116,12 @@
                 "lolibrary": "/egl/handmade/daisy-rectangle",
                 "img": "/img/wardrobe/accessories/headwear/rectangle.png"
             },
+            "Lace Ribbon Hair Clips": {
+                "brand": "Handmade by Me",
+                "year": 2024,
+                "lolibrary": "/egl/handmade/lace-ribbon-clips",
+                "img": "/img/wardrobe/accessories/headwear/hair-clips-bw.png"
+            },
             "Bat Rhapsody": {
                 "brand": "Lady Sloth",
                 "year": 2018,
@@ -151,6 +157,12 @@
                 "year": 2023,
                 "lolibrary": "https://lolibrary.org/items/btssb-ribbon-otks-2023",
                 "img": "/img/wardrobe/accessories/legwear/ribbon-otks.png"
+            },
+            "Ankle Socks I": {
+                "brand": "Handmade by Me",
+                "year": 2024,
+                "lolibrary": "/egl/handmade/ankle-socks",
+                "img": "/img/wardrobe/accessories/legwear/ankle-socks-bw.png"
             }
         }
     },
