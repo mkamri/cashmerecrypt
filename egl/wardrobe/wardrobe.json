@@ -1,29 +1,40 @@
 {
     "main pieces": {
         "pieces": {
-            "Emblem Gate JSK": {
-                "brand": "Candelabra Emblem Gate JSK",
+            "Candelabra Emblem Gate JSK": {
+                "brand": "Moi Meme Moitie",
                 "year": 2022,
                 "lolibrary": "https://lolibrary.org/items/moitie-candelabra-emblem-gate-jumper-skirt",
-                "img": "/img/wardrobe/main/emblem-gate.png"
+                "img": "/img/wardrobe/main/emblem-gate.png",
+                "aspectratio": "3/4"
+            },
+            "Stripe OP": {
+                "brand": "Cornet",
+                "year": 2009,
+                "lolibrary": "https://lolibrary.org/items/cornet-op-striped-2009",
+                "img": "/img/wardrobe/main/cornet-striped.PNG",
+                "aspectratio": "3/4"
             },
             "Francoise Velveteen": {
                 "brand": "Bodyline",
                 "year": 2011,
                 "lolibrary": "https://lolibrary.org/items/bodyline-francoise-velveteen-op-l310",
-                "img": "/img/wardrobe/main/bodyline-op.PNG"
+                "img": "/img/wardrobe/main/bodyline-op.PNG",
+                "aspectratio": "3/4"
             },
             "Shirred Ladder Lace Skirt": {
                 "brand": "Handmade by Me",
                 "year": 2024,
                 "lolibrary": "/egl/handmade/shirred-skirt",
-                "img": "/img/wardrobe/main/shirring-skirt.PNG"
+                "img": "/img/wardrobe/main/shirring-skirt.PNG",
+                "aspectratio": "3/4"
             },
             "Lace Flocky Skirt": {
                 "brand": "BtSSB",
                 "year": 2010,
                 "lolibrary": "https://lolibrary.org/items/aatp-lace-flocky-skirt",
-                "img": "/img/wardrobe/main/miniskirt.PNG"
+                "img": "/img/wardrobe/main/miniskirt.PNG",
+                "aspectratio": "1/1"
             }
         }
     },
@@ -86,25 +97,29 @@
                 "brand": "Moi Meme Moitie",
                 "year": 2023,
                 "lolibrary": "https://lolibrary.org/items/moitie-hemera-sailor-cardigan",
-                "img": "/img/wardrobe/outerwear/hemera.png"
+                "img": "/img/wardrobe/outerwear/hemera.png",
+                "aspectratio": "1/1"
             },
             "A/P School Cardigan": {
                 "brand": "Alice and the Pirates",
                 "year": 2012,
                 "lolibrary": "https://lolibrary.org/items/aatp-ap-school-cardigan-2012",
-                "img": "/img/wardrobe/outerwear/aatp.PNG"
+                "img": "/img/wardrobe/outerwear/aatp.PNG",
+                "aspectratio": "1/1"
             },
             "Lace Cardigan": {
                 "brand": "Black Peace Now",
                 "year": null,
                 "lolibrary": null,
-                "img": "/img/wardrobe/outerwear/bpn-lace.PNG"
+                "img": "/img/wardrobe/outerwear/bpn-lace.PNG",
+                "aspectratio": "1/1"
             },
             "Cardigan": {
                 "brand": "An Another Angelus",
                 "year": null,
                 "lolibrary": null,
-                "img": "/img/wardrobe/outerwear/angelus.PNG"
+                "img": "/img/wardrobe/outerwear/angelus.PNG",
+                "aspectratio": "1/1"
             }
         }
     },
@@ -114,19 +129,29 @@
                 "brand": "Handmade by Me",
                 "year": 2024,
                 "lolibrary": "/egl/handmade/daisy-rectangle",
-                "img": "/img/wardrobe/accessories/headwear/rectangle.png"
+                "img": "/img/wardrobe/accessories/headwear/rectangle.png",
+                "aspectratio": "1/1"
+            },
+            "Coffin Lace Headdress": {
+                "brand": "Moi Meme Moitie",
+                "year": 2024,
+                "lolibrary": "https://lolibrary.org/items/moitie-coffin-lace-headdress",
+                "img": "/img/wardrobe/accessories/headwear/moitie-rectangle.PNG",
+                "aspectratio": "1/1"
             },
             "Lace Ribbon Hair Clips": {
                 "brand": "Handmade by Me",
                 "year": 2024,
                 "lolibrary": "/egl/handmade/lace-ribbon-clips",
-                "img": "/img/wardrobe/accessories/headwear/hair-clips-bw.png"
+                "img": "/img/wardrobe/accessories/headwear/hair-clips-bw.png",
+                "aspectratio": "1/1"
             },
             "Bat Rhapsody": {
                 "brand": "Lady Sloth",
                 "year": 2018,
                 "lolibrary": "https://lolibrary.org/items/indie-lady-sloth-bat-rhapsody-headdress",
-                "img": "/img/wardrobe/accessories/headwear/bat.PNG"
+                "img": "/img/wardrobe/accessories/headwear/bat.PNG",
+                "aspectratio": "1/1"
             }
         }
     },
@@ -136,7 +161,8 @@
                 "brand": "Dr. Martens",
                 "year": 2023,
                 "lolibrary": "https://www.drmartens.com/us/en/addina-flower-buckle-leather-platform-shoes-black/p/27644001",
-                "img": "/img/wardrobe/shoes/doc-martens.png"
+                "img": "/img/wardrobe/shoes/doc-martens.png",
+                "aspectratio": "1/1"
             }
         }
     },
@@ -146,7 +172,8 @@
                 "brand": "BtSSB",
                 "year": 2019,
                 "lolibrary": "https://lolibrary.org/items/btssb-usakumya-pochette-2019-2nd-release",
-                "img": "/img/wardrobe/bags/usakumya-black-blue.png"
+                "img": "/img/wardrobe/bags/usakumya-black-blue.png",
+                "aspectratio": "1/1"
             }
         }
     },
@@ -156,13 +183,15 @@
                 "brand": "BtSSB",
                 "year": 2023,
                 "lolibrary": "https://lolibrary.org/items/btssb-ribbon-otks-2023",
-                "img": "/img/wardrobe/accessories/legwear/ribbon-otks.png"
+                "img": "/img/wardrobe/accessories/legwear/ribbon-otks.png",
+                "aspectratio": "3/4"
             },
             "Ankle Socks I": {
                 "brand": "Handmade by Me",
                 "year": 2024,
                 "lolibrary": "/egl/handmade/ankle-socks",
-                "img": "/img/wardrobe/accessories/legwear/ankle-socks-bw.png"
+                "img": "/img/wardrobe/accessories/legwear/ankle-socks-bw.png",
+                "aspectratio": "3/4"
             }
         }
     },
@@ -172,7 +201,8 @@
                 "brand": "Handmade by Me",
                 "year": 2024,
                 "lolibrary": "/egl/handmade/long-bloomers",
-                "img": "/img/wardrobe/inner/long-bloomers-bw.png"
+                "img": "/img/wardrobe/inner/long-bloomers-bw.png",
+                "aspectratio": "3/4"
             }
         }
     }

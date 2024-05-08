@@ -64,7 +64,7 @@
         <section>
             <h2>new coord</h2>
             <a href="/egl/coords">
-                <img src="/img/coords/3.jpg" class="homepage-coord-img">
+                <img src="/img/coords/5.jpg" class="homepage-coord-img">
             </a>
             <p>check my <a href="/egl/coords">coords</a>?</p>
             <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
@@ -72,7 +72,7 @@
         <section>
             <h2>new item</h2>
             <a href="/egl/wardrobe">
-                <img src="/img/wardrobe/inner/long-bloomers-bw.png" class="homepage-coord-img">
+                <img src="/img/wardrobe/main/cornet-striped.PNG" class="homepage-coord-img">
             </a>
             <p>view my <a href="/egl/wardrobe">wardrobe</a>?</p>
             <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
