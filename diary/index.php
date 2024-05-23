@@ -14,7 +14,7 @@
                 <section>
                     <img src="<?= $entry->img ?>" class="diary-image">
                     <ul class="diary-info">
-                        <li><strong><?= date('m.d.y') ?></strong></li>
+                        <li><strong><?= date('m.d.y', strtotime($date)) ?></strong></li>
                         <li>⊹°｡⋆༺♱༻⋆｡°⊹</li>
                         <li><strong>mood:</strong> <?= $entry->mood ?></li>
                         <li><strong>weather:</strong> <?= $entry->weather ?></li>

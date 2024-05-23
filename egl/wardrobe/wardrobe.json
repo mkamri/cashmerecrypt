@@ -1,11 +1,11 @@
 {
     "main pieces": {
         "pieces": {
-            "Candelabra Emblem Gate JSK": {
-                "brand": "Moi Meme Moitie",
-                "year": 2022,
-                "lolibrary": "https://lolibrary.org/items/moitie-candelabra-emblem-gate-jumper-skirt",
-                "img": "/img/wardrobe/main/emblem-gate.png",
+            "Heart Lace JSK": {
+                "brand": "Handmade by Me",
+                "year": 2024,
+                "lolibrary": "/egl/handmade/heart-lace-jsk",
+                "img": "/img/wardrobe/main/beginners-heart.PNG",
                 "aspectratio": "3/4"
             },
             "Stripe OP": {
@@ -13,6 +13,13 @@
                 "year": 2009,
                 "lolibrary": "https://lolibrary.org/items/cornet-op-striped-2009",
                 "img": "/img/wardrobe/main/cornet-striped.PNG",
+                "aspectratio": "3/4"
+            },
+            "Candelabra Emblem Gate JSK": {
+                "brand": "Moi Meme Moitie",
+                "year": 2022,
+                "lolibrary": "https://lolibrary.org/items/moitie-candelabra-emblem-gate-jumper-skirt",
+                "img": "/img/wardrobe/main/emblem-gate.png",
                 "aspectratio": "3/4"
             },
             "Francoise Velveteen": {

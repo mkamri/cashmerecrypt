@@ -10,24 +10,9 @@
     $diary = reset($diaries);
 
 
-    $skilltree = json_decode(file_get_contents($_SERVER["DOCUMENT_ROOT"]."/data/skilltree.json"), true);
-    foreach($skilltree as &$details)
-    {
-        $details['totalTime'] = 0;
-        foreach($details['skills'] as $skillTime)
-        {
-            $details['totalTime'] += $skillTime;
-        }
-        $details['percent'] = ($details['totalTime'] / 10000) * 100;
-        if($details['percent'] > 100)
-        {
-            $details['percent'] = 100;
-        }
+    $activity = getGuildActivity();
 
-        $details['level'] = $details['percent'] >= 1 
-            ? 'level '.number_format($details['percent'])
-            : 'tutorial';
-    }
+    $member = $activity[1];
 ?>
 <main>
     <section id="welcome">
@@ -61,6 +46,7 @@
         </section>
     </div>
     <div class="homepage-grid homepage-grid--2">
+        <!--
         <section>
             <h2>new coord</h2>
             <a href="/egl/coords">
@@ -69,10 +55,19 @@
             <p>check my <a href="/egl/coords">coords</a>?</p>
             <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
         </section>
+        -->
+        <section>
+            <h2>work in progress</h2>
+            <a href="/gallery">
+                <img src="/img/art/wip/wip.jpeg" class="homepage-coord-img">
+            </a>
+            <p>check my <a href="/gallery">art gallery</a>?</p>
+            <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
+        </section>
         <section>
             <h2>new item</h2>
             <a href="/egl/wardrobe">
-                <img src="/img/wardrobe/main/cornet-striped.PNG" class="homepage-coord-img">
+                <img src="/img/wardrobe/main/beginners-heart.PNG" class="homepage-coord-img">
             </a>
             <p>view my <a href="/egl/wardrobe">wardrobe</a>?</p>
             <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
@@ -81,18 +76,19 @@
 
     <section id="skilltree">
         <h2>class skills</h2>
-        <?php foreach($skilltree as $ability => $info): ?>
-            <div class="skilltree--container">
+        
+        <?php foreach($member['subclassXP'] as $subclass): ?>
+            <div class="skilltree--container mb-2">
                 <div class="skilltree--header">
-                    <p><?= $ability ?></p>
-                    <p><?= $info['level'] ?></p>
+                    <p><?= $subclass['class'] ?></p>
+                    <p>Level <?= (int)(($subclass['totalXP'] / 1000) < 1 ? 1 : $subclass['totalXP'] / 1000 ) ?></p>
                 </div>
                 <div class="skilltree--bar">
                     <div class="skilltree--bar-filler"
-                         style="--skilltree-percent: <?= $info['percent'] ?>%">
+                            style="--skilltree-percent: <?= (($subclass['totalXP'] > 100000 ? 10000 : ($subclass['totalXP'] / 10)) / 10000) * 100 ?>%">
                     </div>
                     <div class="skilltree--bar-text">
-                        <?= number_format($info['totalTime']) ?> / 10,000
+                        <?= number_format($subclass['totalXP'] / 10) ?> / 10,000
                     </div>
                 </div>
             </div>

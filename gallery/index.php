@@ -15,13 +15,21 @@
 ?>
 <main>
     <section id="art">
-        <h1>My Art</h1>
+        <h1>art gallery</h1>
         <p>This is a little gallery of artwork that I have made. I love to create art with a gothic or fantasy theme.</p>
         <p>Click on a thumbnail to view the full work!</p>
     </section>
+    <section>
+        <h1>Current Work in Progress</h1>
+        <p>I finally took the plunge and bought some oil painting supplies. It's been many years since I last used oils, but they are by far my favorite medium.</p>
+        <p>I'm currently working on a still life to get back into the swing of painting. It's pretty much finished -- just need to add varnish and then figure out how to photograph this thing :)</p>
+        <img src="/img/art/wip/wip.jpeg" 
+             class="art-wip-img"
+             />
+    </section>
     <?php foreach($artworks as $year => $works): ?>
         <section>
-            <h1><?= $year ?></h1>
+            <h1><?= $year ?> works</h1>
             <div class="artwork-grid">
                 <?php foreach($works as $file => $info): ?>
                     <button class="open-button"

@@ -42,6 +42,13 @@
                 <script type="text/javascript" src="https://ita.toys/cutie-club/onionring-variables.js"></script>
                 <script type="text/javascript" src="https://ita.toys/cutie-club/onionring-widget.js"></script>
             </div>
+            <div id='rainbow-fountain'>
+                <a href="https://inkcaps.neocities.org/links/neopets/"
+                   target="_blank">
+                    <img src="/img/buttons/rainbowfountain2.png">
+                </a>
+            </div>
+            <journal-ring icon="blue"></journal-ring><script async src="https://cdn.jsdelivr.net/gh/js044/nenrikido@main/static/js/misc/journalring.js"></script> 
         </div>
     </section>
     <section>
@@ -111,10 +118,12 @@
                 target="_blank">
                 <img src="/img/buttons/sadgrlonline.gif"/>
             </a>
+            <!-- defunct, if not back by 5/10/2025 will remove
             <a href="https://bikobatanari.art/" 
                 target="_blank">
                 <img src="/img/buttons/bikobatanari.gif"/>
             </a>
+            -->
             <a href="https://www.lolitahistory.com/gallery/index.php?/category/1/startcat-24" 
                 target="_blank">
                 <img src="/img/buttons/glb.png"/>
@@ -127,6 +136,25 @@
                 target="_blank">
                 <img src="/img/buttons/lacemonster.gif"/>
             </a>
+            <a href="http://www.goddess-athena.org/index.htm"
+               target="_blank">
+               <img src="/img/buttons/athena.png"/>
+            </a>
+            <a href="https://www.theoi.com/"
+               target="_blank">
+               <img src="/img/buttons/theoi.png"/>
+            </a>
+            <a href="https://hillhouse.neocities.org"
+               target="_blank">
+                <img src="/img/buttons/hillhouse-banner-2.gif" 
+                     width="88" 
+                     height="31" 
+                     alt="hillhouse" style="image-rendering:pixelated">
+            </a>
+            <a href="https://hell-mouth.neocities.org/"
+               target="_blank">
+                <img src="/img/buttons/hellmouth.gif">
+            </a>
         </div>
     </section>
     <section>
@@ -137,6 +165,12 @@
                    target="_blank">
                     Side7
                 </a> - share ur art // deviantart replacement, makes me feel like it's 2009 again // under construction ^^
+            </li>
+            <li>
+                <a href="https://www.neopets.com/userlookup.phtml?user=cashmere_crypt"
+                   target="_blank">
+                    Neopets
+                </a> - add me! <3
             </li>
             <li>
                 <a href="https://www.gaiaonline.com/profiles/cashmere-crypt/"
