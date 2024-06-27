@@ -41,6 +41,12 @@
                     Lolita Tutorials / F Yeah Lolita
                 </a> - huge list of DIY tutorials
             </li>
+            <li>
+                <a href="http://www.elizabethancostume.net/cheminst.html"
+                target="_blank">
+                    Making an Elizabethan Chemise
+                </a> - plan to adapt this for a blouse pattern
+            </li>
             
         </ul>
     </section>

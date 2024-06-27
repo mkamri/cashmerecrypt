@@ -46,16 +46,15 @@
         </section>
     </div>
     <div class="homepage-grid homepage-grid--2">
-        <!--
         <section>
             <h2>new coord</h2>
             <a href="/egl/coords">
-                <img src="/img/coords/5.jpg" class="homepage-coord-img">
+                <img src="/img/coords/6.jpg" class="homepage-coord-img">
             </a>
             <p>check my <a href="/egl/coords">coords</a>?</p>
             <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
         </section>
-        -->
+        <!--
         <section>
             <h2>work in progress</h2>
             <a href="/gallery">
@@ -64,6 +63,7 @@
             <p>check my <a href="/gallery">art gallery</a>?</p>
             <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
         </section>
+-->
         <section>
             <h2>new item</h2>
             <a href="/egl/wardrobe">

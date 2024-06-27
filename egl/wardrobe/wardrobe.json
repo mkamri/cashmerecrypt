@@ -22,64 +22,22 @@
                 "img": "/img/wardrobe/main/emblem-gate.png",
                 "aspectratio": "3/4"
             },
-            "Francoise Velveteen": {
-                "brand": "Bodyline",
-                "year": 2011,
-                "lolibrary": "https://lolibrary.org/items/bodyline-francoise-velveteen-op-l310",
-                "img": "/img/wardrobe/main/bodyline-op.PNG",
-                "aspectratio": "3/4"
-            },
             "Shirred Ladder Lace Skirt": {
                 "brand": "Handmade by Me",
                 "year": 2024,
                 "lolibrary": "/egl/handmade/shirred-skirt",
                 "img": "/img/wardrobe/main/shirring-skirt.PNG",
                 "aspectratio": "3/4"
-            },
-            "Lace Flocky Skirt": {
-                "brand": "BtSSB",
-                "year": 2010,
-                "lolibrary": "https://lolibrary.org/items/aatp-lace-flocky-skirt",
-                "img": "/img/wardrobe/main/miniskirt.PNG",
-                "aspectratio": "1/1"
             }
         }
     },
     "blouses": {
         "pieces": {
-            "Apricot Blouse": {
-                "brand": "Angelic Pretty",
-                "year": 2018,
-                "lolibrary": "https://lolibrary.org/items/ap-apricot-blouse",
-                "img": "/img/wardrobe/blouses/apricot.PNG",
-                "aspectratio": "1/1"
-            },
             "Yoke Switching Short Sleeve Blouse": {
                 "brand": "Metamorphose",
                 "year": 2009,
                 "lolibrary": "https://lolibrary.org/items/meta-yoke-switching-short-sleeve-blouse",
                 "img": "/img/wardrobe/blouses/meta-blouse.PNG",
-                "aspectratio": "1/1"
-            },
-            "Heart Blouse": {
-                "brand": "Taobao",
-                "year": null,
-                "lolibrary": null,
-                "img": "/img/wardrobe/blouses/heart-blouse.PNG",
-                "aspectratio": "1/1"
-            },
-            "Long Sleeve Blouse": {
-                "brand": "Taobao",
-                "year": null,
-                "lolibrary": null,
-                "img": "/img/wardrobe/blouses/long-sleeve.PNG",
-                "aspectratio": "1/1"
-            },
-            "Candleabra Cutsew": {
-                "brand": "Moi Meme Moitie",
-                "year": 2022,
-                "lolibrary": "https://lolibrary.org/items/moitie-candelabra-embroidery-puff-sleeve-cutsew",
-                "img": "/img/wardrobe/blouses/moitie-cutsew.PNG",
                 "aspectratio": "1/1"
             },
             "Bat Cutsew": {
@@ -89,11 +47,18 @@
                 "img": "/img/wardrobe/blouses/bat-cutsew.PNG",
                 "aspectratio": "1/1"
             },
-            "Cutsew": {
-                "brand": "Emily Temple Cute",
+            "Marshmallow Camisole": {
+                "brand": "BtSSB",
+                "year": 2004,
+                "lolibrary": "https://lolibrary.org/items/btssb-marshmallow-camisole",
+                "img": "/img/wardrobe/blouses/btssb-camisole.png",
+                "aspectratio": "1/1"
+            },
+            "Bow Camisole": {
+                "brand": "Jane Marple",
                 "year": null,
                 "lolibrary": null,
-                "img": "/img/wardrobe/blouses/etc-cutsew.PNG",
+                "img": "/img/wardrobe/blouses/jm-camisole.png",
                 "aspectratio": "1/1"
             }
         }
@@ -112,13 +77,6 @@
                 "year": 2012,
                 "lolibrary": "https://lolibrary.org/items/aatp-ap-school-cardigan-2012",
                 "img": "/img/wardrobe/outerwear/aatp.PNG",
-                "aspectratio": "1/1"
-            },
-            "Lace Cardigan": {
-                "brand": "Black Peace Now",
-                "year": null,
-                "lolibrary": null,
-                "img": "/img/wardrobe/outerwear/bpn-lace.PNG",
                 "aspectratio": "1/1"
             },
             "Cardigan": {
