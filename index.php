@@ -55,15 +55,15 @@
             <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
         </section>
         <!--
-        <section>
-            <h2>work in progress</h2>
-            <a href="/gallery">
-                <img src="/img/art/wip/wip.jpeg" class="homepage-coord-img">
-            </a>
-            <p>check my <a href="/gallery">art gallery</a>?</p>
-            <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
-        </section>
--->
+            <section>
+                <h2>work in progress</h2>
+                <a href="/gallery">
+                    <img src="/img/art/wip/wip.jpeg" class="homepage-coord-img">
+                </a>
+                <p>check my <a href="/gallery">art gallery</a>?</p>
+                <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
+            </section>
+        -->
         <section>
             <h2>new item</h2>
             <a href="/egl/wardrobe">
