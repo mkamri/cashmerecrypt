@@ -5,8 +5,9 @@
 ?>
 <main>
     <section id="garden">
-        <h1>garden</h1>
+        <h1><a href="/">☜</a> garden</h1>
         <p>A digital garden with posts about things I found interesting or useful.</p>
+        <p>I plan to convert these to blog posts (eventually....)</p>
     </section>
     <section>
         <h2>posts</h2>

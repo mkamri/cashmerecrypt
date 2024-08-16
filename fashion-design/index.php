@@ -1,12 +1,12 @@
 <?php 
     include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php'); 
 
-    $wardrobe = json_decode(file_get_contents($_SERVER["DOCUMENT_ROOT"].'/egl/wardrobe/wardrobe.json'));
+    $wardrobe = json_decode(file_get_contents($_SERVER["DOCUMENT_ROOT"].'/data/wardrobe.json'));
 ?>
 <main>
     <section>
-        <h1><a href="/egl">☜</a> handmade by me</h1>
-        <p>I've recently fallen in love with sewing my own clothes. I love that I can make items completely customized to my measurements and taste. I can also create pieces in the old school style that I love without engaging in stressful bidding wars~</p>
+        <h1><a href="/">☜</a> fashion design</h1>
+        <p>I've recently fallen in love with sewing my own clothes. I love that I can make items completely customized to my measurements and taste. I can also create pieces in the old school egl style that I love without engaging in stressful bidding wars~</p>
         <p>I'm excited to share my handmade collection with you here!</p>
     </section>
     <section>

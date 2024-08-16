@@ -3,6 +3,10 @@
 ?>
 <main>
     <section>
+        <h1><a href="/">☜</a> links</h1>
+        <p>This page contains links to sites run by friends or people who inspire me. Feel free to grab my button to post on your own site!</p>
+    </section>
+    <section>
         <h1>my button</h1>
         <a href="https://cashmerecrypt.art"
            target="_blank">

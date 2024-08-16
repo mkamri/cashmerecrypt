@@ -31,7 +31,7 @@ html {
 
 body {
     font-family: 'Garamond', serif;
-    width: 768px;
+    max-width: 768px;
     margin: 0 auto;
     color: #ffffff;
     font-size: 14px;
@@ -111,11 +111,52 @@ header {
     text-align: center;
     margin-bottom: var(--spacing);
 }
+@media screen and (max-width: 768px)
+{
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+header button {
+    display: none;
+    width: 42px;
+    height: 42px;
+    padding: 8px;
+}
+header button img {
+    object-fit: scale-down;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 768px)
+{
+    header button {
+        display: block;
+    }
+}
+
+#hamburger--container {
+    display: none;
+}
+#hamburger--container.visible {
+    display: block;
+    margin-bottom: var(--spacing);
+}
+
 
 header h1 {
     font-family: 'Cthulhumbus Arcade';
     font-size: 3rem;
     color: #ffffff;
+}
+@media screen and (max-width: 768px)
+{
+    header h1 {
+        font-size: 1.4rem;
+    }
 }
 
 header figure {
@@ -124,13 +165,25 @@ header figure {
 
 #container {
     display: grid;
-    grid-template-columns: 550px 1fr;
+    grid-template-columns: 1fr 550px;
     grid-gap: var(--spacing);
+}
+@media screen and (max-width: 768px)
+{
+    #container {
+        grid-template-columns: 1fr;
+    }
 }
 
 main > * + *,
 #side-panel > * + * {
     margin-top: var(--spacing);
+}
+@media screen and (max-width: 768px)
+{
+    #side-panel {
+        display: none;
+    }
 }
 
 section,
@@ -140,8 +193,22 @@ article {
     padding: 1rem;
 }
 
+nav h2 {
+    font-size: 1.1rem;
+    margin-bottom: -.1rem;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav div:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
 nav li:before {
     content: "❥";
+    font-size: 10px;
     padding-right: 5px;
 }
 
@@ -150,10 +217,23 @@ nav li:before {
     max-height: 300px;
     overflow-y: scroll;
 }
+@media screen and (max-width: 768px)
+{
+    .widget {
+        max-height: none;
+    }
+}
+
 .widget--short {
     font-size: .8rem;
     max-height: 150px;
     overflow-y: scroll;
+}
+@media screen and (max-width: 768px)
+{
+    .widget--short {
+        max-height: none;
+    }
 }
 
 .homepage-grid {
@@ -164,8 +244,21 @@ nav li:before {
 .homepage-grid--2 {
     grid-template-columns: 1fr 1fr;
 }
+@media screen and (max-width: 550px)
+{
+    .homepage-grid--2 {
+        grid-template-columns: 1fr;
+    }
+}
+
 .homepage-grid--3 {
     grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and (max-width: 550px)
+{
+    .homepage-grid--3 {
+        grid-template-columns: 1fr;
+    }
 }
 
 .homepage-coord-img {
@@ -436,3 +529,21 @@ article img {
 
     font-family: 'Pixel Operator Mono Bold', monospace;
 }
+
+/**
+ * POSTS
+ */
+
+ .post--img {
+    width: 100%;
+    object-fit: scale-down;
+    margin-bottom: 1rem;
+    max-height: 85dvh;
+ }
+
+ #about--img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 300px;
+ }

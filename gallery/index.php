@@ -15,7 +15,7 @@
 ?>
 <main>
     <section id="art">
-        <h1>art gallery</h1>
+        <h1><a href="/">☜</a> art gallery</h1>
         <p>This is a little gallery of artwork that I have made. I love to create art with a gothic or fantasy theme.</p>
         <p>Click on a thumbnail to view the full work!</p>
     </section>
