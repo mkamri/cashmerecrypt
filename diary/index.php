@@ -1,16 +1,18 @@
 <?php 
-    include($_SERVER["DOCUMENT_ROOT"].'/layout/header-plain.php'); 
+    include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php'); 
+    include($_SERVER["DOCUMENT_ROOT"].'/lib/Parsedown.php');
+    $Parsedown = new Parsedown();
 
-    $entries = json_decode(file_get_contents($_SERVER["DOCUMENT_ROOT"].'/data/diary.json'));
+    $entries = json_decode(file_get_contents('diary.json'));
 ?>
-<main>
-    <section id="diary">
-        <h1><a href="/">☜</a> my diary</h1>
+<div class="grid container">
+    <div class="bg-crypt padding">
+        <h1><a href="/" class="text-pictochat">☜</a> my diary</h1>
         <p>Looks like you've stumbled upon my diary (´ཀ`).𖥔 ݁ ˖ I post whenever and whatever I feel like here, and content warnings will be tagged at the top of each entry.</p>
-    </section>
+    </div>
     <?php foreach($entries as $date => $entry): ?>
-        <div class="diary-entry">
-            <div>
+        <div class="bg-crypt padding flex">
+            <div class="mr">
                 <section>
                     <img src="<?= $entry->img ?>" class="diary-image">
                     <ul class="diary-info">
@@ -34,6 +36,6 @@
             </section>
         </div>
     <?php endforeach; ?>
-</main>
+</div>
 
 <?php include($_SERVER["DOCUMENT_ROOT"].'/layout/footer-plain.php'); ?>

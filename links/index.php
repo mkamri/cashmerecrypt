@@ -1,24 +1,27 @@
 <?php 
     include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php'); 
 ?>
-<main>
-    <section>
-        <h1><a href="/">☜</a> links</h1>
-        <p>This page contains links to sites run by friends or people who inspire me. Feel free to grab my button to post on your own site!</p>
-    </section>
-    <section>
-        <h1>my button</h1>
-        <a href="https://cashmerecrypt.art"
-           target="_blank">
-            <img src="/img/buttons/cashmere-crypt-badge.gif"/>
-        </a>
-        <div>
-            <textarea class="buttonHTML">&lt;a href=&quot;https:&#x2F;&#x2F;cashmerecrypt.art&quot; target=&quot;_blank&quot;&gt;
-        &lt;img src=&quot;https:&#x2F;&#x2F;cashmerecrypt.art&#x2F;img&#x2F;buttons&#x2F;cashmere-crypt-badge.gif&quot;&#x2F;&gt;
-    &lt;&#x2F;a&gt;</textarea>
+<div class="container grid">
+    <div class="grid grid-cols-2">
+        <div class="bg-chapped padding text-kuromi">
+            <h2>links</h2>
+            <p>This page contains links to sites run by friends or people who inspire me. Feel free to grab my button to post on your own site!</p>
         </div>
-    </section>
-    <section>
+        <div class="bg-kuromi padding">
+            <h2>my button</h2>
+            <a href="https://cashmerecrypt.art"
+            target="_blank">
+                <img src="/img/buttons/cashmere-crypt-badge.gif"/>
+            </a>
+            <div>
+                <textarea class="buttonHTML">&lt;a href=&quot;https:&#x2F;&#x2F;cashmerecrypt.art&quot; target=&quot;_blank&quot;&gt;
+            &lt;img src=&quot;https:&#x2F;&#x2F;cashmerecrypt.art&#x2F;img&#x2F;buttons&#x2F;cashmere-crypt-badge.gif&quot;&#x2F;&gt;
+        &lt;&#x2F;a&gt;</textarea>
+            </div>
+        </div>
+
+    </div>
+    <div class="bg-ghost text-bruised padding">
         <h1>my friends</h1>
         <ul>
             <li>
@@ -33,9 +36,13 @@
                 <a href="https://keikiiart.carrd.co/" 
                    target="_blank">Keikii Art</a> - A small business run by my close friend and fellow art nerd
             </li>
+            <li>
+                <a href="https://molluskmaiden.blogspot.com/" 
+                   target="_blank">Mollusk Maiden</a> - Super cool blog run by my good friend and fellow oldschool egl nerd
+            </li>
         </ul>
-    </section>
-    <section>
+    </div>
+    <div class="bg-pictochat border border-crypt padding text-crypt">
         <h1>webrings</h1>
         <div id="webrings">
             <div id='CultofUsakumya'>
@@ -54,8 +61,8 @@
             </div>
             <journal-ring icon="blue"></journal-ring><script async src="https://cdn.jsdelivr.net/gh/js044/nenrikido@main/static/js/misc/journalring.js"></script> 
         </div>
-    </section>
-    <section>
+    </div>
+    <div class="bg-bruised padding">
         <h1>cool sites</h1>
         <div id="button-container">
             <a href="https://github.com/mkamri"
@@ -160,31 +167,8 @@
                 <img src="/img/buttons/hellmouth.gif">
             </a>
         </div>
-    </section>
-    <section>
-        <h1>"socials"</h1>
-        <ul>
-            <li>
-                <a href="https://www.side7.com/u/cashmere_crypt/profile"
-                   target="_blank">
-                    Side7
-                </a> - share ur art // deviantart replacement, makes me feel like it's 2009 again // under construction ^^
-            </li>
-            <li>
-                <a href="https://www.neopets.com/userlookup.phtml?user=cashmere_crypt"
-                   target="_blank">
-                    Neopets
-                </a> - add me! <3
-            </li>
-            <li>
-                <a href="https://www.gaiaonline.com/profiles/cashmere-crypt/"
-                   target="_blank">
-                    Gaia Online
-                </a> - add me! <3
-            </li>
-        </ul>
-    </section>
-    <section>
+    </div>
+    <div class="bg-crypt padding">
         <h1>resources</h1>
         <ul>
             <li>
@@ -194,7 +178,7 @@
                 </a> - where I get all my sick emojis from ദ്ദി ˉ͈̀꒳ˉ͈́ )✧
             </li>
         </ul>
-    </section>
+    </div>
 </main>
 <?php 
     include($_SERVER["DOCUMENT_ROOT"].'/layout/footer.php'); 

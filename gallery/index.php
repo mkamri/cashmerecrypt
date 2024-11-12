@@ -13,34 +13,32 @@
     }
 
 ?>
-<main>
-    <section id="art">
-        <h1><a href="/">☜</a> art gallery</h1>
-        <p>This is a little gallery of artwork that I have made. I love to create art with a gothic or fantasy theme.</p>
-        <p>Click on a thumbnail to view the full work!</p>
-    </section>
+<div class="container">
+    <h2 class="text-lg">ART GALLERY</h2>
     <?php foreach($artworks as $year => $works): ?>
-        <section>
-            <h1><?= $year ?> works</h1>
-            <div class="artwork-grid">
+        <div>
+            <h3><?= $year ?> works</h3>
+            <div class="artwork-grid padding bg-crypt">
                 <?php foreach($works as $file => $info): ?>
                     <button class="open-button"
                             data-id="<?= $info->id ?>"
                             onclick=" showSlide(this.dataset.id);"
                             >
                         <img class="artwork-thumb"
-                             src="/img/art/<?= $year ?>/thumbs/<?= $file ?>"
-                             alt="<?= $info->alt ?>"
-                             />
+                            src="/img/art/<?= $year ?>/thumbs/<?= $file ?>"
+                            alt="<?= $info->alt ?>"
+                            />
                     </button>
                 <?php endforeach; ?>
             </div>
-        </section>
+        </div>
     <?php endforeach; ?>
-</main>
+</div>
+
+
+
 <dialog id="art-gallery">
     <div class="modal-inner">
-
         <div class="modal-header">
             <h1>Gallery</h1>
             <button class="close-button">close gallery</button>
@@ -55,8 +53,8 @@
                         />
                     <div class="gallery-nav">
                         <button 
-                                <?php if(in_array($info->id - 1, $ids)): ?>
-                                    onclick="showSlide(<?= $info->id - 1 ?>)"
+                                <?php if(in_array($info->id + 1, $ids)): ?>
+                                    onclick="showSlide(<?= $info->id + 1 ?>)"
                                 <?php else: ?>
                                     disabled="disabled"
                                 <?php endif; ?>
@@ -69,8 +67,8 @@
                             <p><?= $info->description ?></p>
                         </div>
                         <button 
-                                <?php if(in_array($info->id + 1, $ids)): ?>
-                                    onclick="showSlide(<?= $info->id + 1 ?>)"
+                                <?php if(in_array($info->id - 1, $ids)): ?>
+                                    onclick="showSlide(<?= $info->id - 1 ?>)"
                                 <?php else: ?>
                                     disabled="disabled"
                                 <?php endif; ?>>

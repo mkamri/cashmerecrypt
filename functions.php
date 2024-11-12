@@ -197,3 +197,18 @@ function getPosts()
 
     return $arr;
 }
+function getLastSlug() 
+{
+    $url = strtok($_SERVER['REQUEST_URI'], '?');
+    $lastSlug = substr(strrchr(parse_url($url)['path'], '/'), 1);
+    return $lastSlug;
+}
+function urlContains($query) 
+{
+    $url = strtok($_SERVER['REQUEST_URI'], '?');
+    if (strpos($url,$query) !== false) {
+        return true;
+    } else {
+        return false;
+    }
+}
