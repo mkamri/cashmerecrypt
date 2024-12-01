@@ -12,13 +12,13 @@
     </section>
     <div class="grid grid-cols-2">
         <div>
-            <img src="/img/coords/egl/8.jpg" class="scale-down">
+            <img src="/img/coords/egl/11.jpg" class="scale-down">
         </div>
         <div>
             <div class="bg-crypt text-ghost padding">
                 <p>⊹°｡⋆｡°⊹</p>
                 <h2>my style</h2>
-                <p>My style has evolved a lot over the years. Currently, I wear mostly j-fashion - a combination of girly-kei and sweet lolita in black & white colorways.</p>
+                <p>My style has evolved a lot over the years. Currently, I wear mostly j-fashion - a combination of girly-kei and gothic / oldschool lolita in black & white colorways.</p>
                 <p>My style has also been heavily influenced by the western goth and industrial movements of the 80's and 90's, which are mostly reflected in my choice of accessories and shoes.</p>
                 <p>I've also recently undergone a challenge to learn to sew my own clothes. As a person with sensory issues, I find that many ready-to-wear garments are either uncomfortable or made of fabricts that are irritating to me. Sewing not only reduces support for abusive labor practices in the fashion industry, but it also gives you the opportunity to customize each piece to your own preferences and needs.</p>
                 <p>
@@ -69,6 +69,15 @@
         <p>⊹°｡⋆｡°⊹</p>
         <h2>log</h2>
         <ul>
+            <li>
+                <strong>2024-12-1:</strong> added <a href="/fashion">new coord</a>
+            </li>
+            <li>
+                <strong>2024-11-20:</strong> updated <a href="/blog">blog</a>
+            </li>
+            <li>
+                <strong>2024-11-16:</strong> added illustration to <a href="/gallery">gallery</a>
+            </li>
             <li>
                 <strong>2024-11-12:</strong> complete site 3.0 ( ˶ˆᗜˆ˵ ) still need to add illustrations tho
             </li>

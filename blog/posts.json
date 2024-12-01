@@ -1,11 +1,4 @@
 {
-    "what-to-draw": {
-        "title": "What to Draw",
-        "type": "art",
-        "excerpt": "A collection of things to draw when you can't think of what to draw",
-        "plantedOn": "2024-04-09 22:53:00",
-        "updatedOn": null
-    },
     "100-questions": {
         "title": "100 Lolita Questions",
         "type": "lolita",
@@ -27,22 +20,22 @@
         "plantedOn": "2024-01-31 17:00:00",
         "updatedOn": null
     },
-    "first": {
-        "title": "Hello World",
-        "type": "personal",
-        "excerpt": "My first post on my new website",
-        "plantedOn": "2024-01-08 14:00:00",
-        "updatedOn": "2024-01-21 13:00:00"
+    "what-to-draw": {
+        "title": "What to Draw",
+        "type": "art",
+        "excerpt": "A collection of things to draw when you can't think of what to draw",
+        "plantedOn": "2024-04-09 22:53:00",
+        "updatedOn": null
     },
     "criticism": {
         "title": "Dealing with Criticism",
-        "type": "personal",
+        "type": "art",
         "excerpt": "How to handle constructive (and less-than-constructive) criticism",
         "plantedOn": "2023-09-05 22:00:00"
     },
     "act-like-an-artist": {
         "title": "My Art Commitment",
-        "type": "personal",
+        "type": "art",
         "excerpt": "Committing to myself to work on and have fun with my art",
         "plantedOn": "2023-09-18 14:00:00"
     },
@@ -51,5 +44,12 @@
         "type": "art",
         "excerpt": "What to draw to get you through a sad day",
         "plantedOn": "2023-09-13 19:00:00"
+    },
+    "first": {
+        "title": "Hello World",
+        "type": "art",
+        "excerpt": "My first post on my new website",
+        "plantedOn": "2024-01-08 14:00:00",
+        "updatedOn": "2024-01-21 13:00:00"
     }
 }

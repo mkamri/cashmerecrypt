@@ -44,7 +44,7 @@
     </div>
     <div class="bg-pictochat border border-crypt padding text-crypt">
         <h1>webrings</h1>
-        <div id="webrings">
+        <div class="flex flex-wrap">
             <div id='CultofUsakumya'>
                 <script type="text/javascript" src="https://mal.ophanimkei.com/lolitaonionring.js"></script>
                 <script type="text/javascript" src="https://mal.ophanimkei.com/lolitawidget3.js"></script>
