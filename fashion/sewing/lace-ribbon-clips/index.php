@@ -4,7 +4,7 @@
 <h2 class="text-lg mb"><a href="/fashion/sewing" class="text-pictochat">☜</a> lace ribbon hair clips (2024)</h2>
 <div class="grid grid-cols-2">
     <div class="bg-crypt">
-        <img src="/img/wardrobe/accessories/headwear/hair-clips-bw.png"
+        <img src="/img/wardrobe/accessories/headwear/bw-bows.PNG"
              class="square scale-down">
     </div>
     <div>

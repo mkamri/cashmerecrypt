@@ -59,7 +59,7 @@
         <div>
             <a href="/fashion/sewing/lace-ribbon-clips"
                class="flex flex-col justify-center items-center">
-                <img src="/img/wardrobe/accessories/headwear/hair-clips-bw.png"
+                <img src="/img/wardrobe/accessories/headwear/bw-bows.PNG"
                      class="scale-down portrait"/>
             </a>
         </div>
