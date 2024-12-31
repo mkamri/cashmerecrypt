@@ -12,7 +12,7 @@ To calculate cost per wear:<br>[$ spent on an item] / [# times you wore this ite
 
 Let's evaluate three pieces from my own wardrobe on Cost Per Wear, and use this as an example for how you can make more informed purchases going forward!
 
-# high cost per wear - Moitie candelabra emblem gate
+# high cost per wear - moitie candelabra emblem gate
 
 <img src="/img/coords/egl/3.jpg" class="square scale-down">
 
@@ -21,7 +21,7 @@ Let's take my **Moitie Candelabra Emblem Gate JSK** for example. This dress is a
 **I spent about $250 USD on this dress**, brand new. For a new dress from a sought-after brand, this is on the lower end of what you'd expect to pay. With the attention to detail and the Moitie tag, this must be a steal!
 
 <div class="grid grid-cols-2 my">
-    <img src="/img/wardrobe/main/Moitie-jsk.PNG" class="scale-down">
+    <img src="/img/wardrobe/main/moitie-jsk.PNG" class="scale-down">
 </div>
 
 However... despite how deeply I love owning this piece, **I have only worn it a total of 3 times** out of the house since I purchased it back in April. That brings my cost per wear up to a whopping **$83.33** at the time of writing this.
@@ -54,7 +54,7 @@ I spent a total of about **$20 USD on materials** to make this skirt. I've worn 
 
 Although it's a kind of "boring" piece, I know that if I want to spend a bit more on a simple skirt next time I'm in the market, I can buy it with confidence. Even if I'd spent $100 on a similar skirt, my CPW would have been only $10 for this year alone. 
 
-# fabulous cost per wear - Moitie cardigan
+# fabulous cost per wear - moitie cardigan
 
 <div class="grid grid-cols-2 my">
     <img src="/img/coords/egl/8.jpg" class="scale-down">
@@ -68,7 +68,7 @@ Although I paid **$127 USD** for this piece, I've probably worn it 40-50 times. 
 
 
 <div class="grid grid-cols-2 my">
-    <img src="/img/wardrobe/outerwear/Moitie-cardigan.PNG" class="scale-down">
+    <img src="/img/wardrobe/outerwear/moitie-cardigan.PNG" class="scale-down">
 </div>
 
 The main reason why I was able to get so much wear out of this piece is because I wear it with my non-lolita wardrobe as well as my lolita wardrobe.
