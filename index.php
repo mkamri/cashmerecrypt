@@ -70,6 +70,9 @@
         <h2>log</h2>
         <ul>
             <li>
+                <strong>2024-12-31:</strong> added two new pieces to my <a href="/gallery">gallery</a>
+            </li>
+            <li>
                 <strong>2024-12-19:</strong> added <a href="/blog/cost-per-wear">new blog post</a>
             </li>
             <li>

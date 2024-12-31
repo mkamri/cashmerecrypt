@@ -1,5 +1,17 @@
 {
     "2024": {
+        "annabelle.jpg": {
+            "id": 10,
+            "title": "Annabelle",
+            "alt": "Portrait of a gothic lolita wearing a large headdress, a Malice Mizer rosary and glasses.",
+            "description": "Fine Liner on Paper"
+        },
+        "sierra.jpg": {
+            "id": 9,
+            "title": "Sierra",
+            "alt": "Portrait of a guro lolita, surrounded by dripping red roses and wearing a cantonier soaked in blood.",
+            "description": "Fine Liner on Paper"
+        },
         "street-snap.jpg": {
             "id": 8,
             "title": "Street Snap",
