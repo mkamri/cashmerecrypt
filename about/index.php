@@ -95,13 +95,13 @@
                 <div class="padding bg-crypt">
                     <h2>music</h2>
                     <p><em>in order of when I discovered them</em></p>
-                    <p>schwarz stein, waterparks, wednesday campanella, bauhaus, crywolf, dir en grey, malice mizer, moi dix mois, my chemial romance, kamelot, kanon wakeshima, emilie autumn, nightwish, the used</p>
+                    <p>jiluka, schwarz stein, waterparks, wednesday campanella, sisters of mercy, bauhaus, crywolf, dir en grey, malice mizer, moi dix mois, my chemial romance, kamelot, kanon wakeshima, emilie autumn, nightwish, the used</p>
                 </div>
             </div>
             <div>
                 <div class="padding bg-ghost text-bruised">
                     <h2>games</h2>
-                    <p>currently playing: hollow knight</p>
+                    <p>currently playing: twisted wonderland</p>
                     <p>acww, acnl, acnh, splatoon 3, dragon age origins, oblivion, kingdom death simulator</p>
                 </div>
             </div>

@@ -19,7 +19,7 @@
                 <?php foreach($posts as $slug => $post): ?>
                     <?php if($post->type == $postType): ?>
                         <li>
-                            <a href="/blog/<?= $slug ?>">
+                            <a href="/blog/<?= $slug ?>" class="text-ghost">
                                 <?= $post->title ?>
                             </a> - <?= $post->excerpt ?>
                         </li>

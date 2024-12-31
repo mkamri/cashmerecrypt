@@ -14,7 +14,7 @@
     $postData = $posts->{$slug};
 
 ?>
-<div class="container bg-crypt padding">
+<div class="container bg-crypt blog-post">
     <section id="data">
         <h1><a href="/blog">☜</a> <?= $postData->title ?></h1>
         <ul>

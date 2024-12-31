@@ -2,27 +2,33 @@
     include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php');
 ?>
 <div class="grid">
-    <div class="flex mb container justify-center">
-        <div class="mr">
+    <div class="flex flex-wrap justify-center container bg-crypt">
+        <div class="padding">
             <a href="/fashion" 
-            class="text-lg text-kuromi">
+            class="text-chapped">
                 COORDS
             </a>
         </div>
-        <div class="mr">
+        <div class="padding">
+            <a href="/fashion/wardrobe" 
+            class="text-chapped">
+                WARDROBE
+            </a>
+        </div>
+        <div class="padding">
             <a href="/fashion/sewing" 
-            class="text-lg text-pictochat link-active">
+            class="text-pictochat link-active">
                 SEWING
             </a>
         </div>
-        <div>
+        <div class="padding">
             <a href="/fashion/inspo" 
-            class="text-lg text-kuromi">
+            class="text-chapped">
                 INSPO
             </a>
         </div>
     </div>
-    <div class="padding bg-crypt container w-full">
+    <div class="padding bg-crypt container">
         <h2>my collection</h2>
         <p>This is my collection of handmade garments. You can click on a piece to view more info about it.</p>
         <p>I started sewing in high school, mostly altering thrifted pieces. Recently I have started sewing full garments, mostly to wear with lolita coords. It's been a lot of fun!</p>

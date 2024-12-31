@@ -219,10 +219,46 @@ main {
     }
 }
 
+.blog-post {
+    padding: 20px 40px;
+}
+@media screen and (max-width: 768px)
+{
+    .blog-post {
+        padding: 16px 16px;
+    }
+}
+
+article p {
+    font-size: 15px;
+    line-height: 28px;
+}
+
 article img {
     max-width: 500px;
     max-height: 80dvh;
     object-fit: scale-down;
+}
+
+article li {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+article ul,
+article ol {
+    padding-left: var(--double-spacing);
+}
+
+article ul li {
+    list-style: disc;
+}
+
+article h1,
+article h2 {
+    margin-top: var(--double-spacing);
+    margin-bottom: var(--spacing);
 }
 
 .text-lg {
@@ -337,6 +373,13 @@ img.scale-down {
 
 .mr {
     margin-right: var(--double-spacing);
+}
+.ml {
+    margin-right: var(--double-spacing);
+}
+.my {
+    margin-top: var(--double-spacing);
+    margin-bottom: var(--double-spacing);
 }
 .mb {
     margin-bottom: var(--double-spacing);

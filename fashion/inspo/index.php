@@ -2,22 +2,28 @@
     include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php');
 ?>
 <div class="grid">
-    <div class="flex justify-center container">
-        <div class="mr">
+    <div class="flex flex-wrap justify-center container bg-crypt">
+        <div class="padding">
             <a href="/fashion" 
-            class="text-lg text-kuromi">
+            class="text-chapped">
                 COORDS
             </a>
         </div>
-        <div class="mr">
+        <div class="padding">
+            <a href="/fashion/wardrobe" 
+            class="text-chapped">
+                WARDROBE
+            </a>
+        </div>
+        <div class="padding">
             <a href="/fashion/sewing" 
-            class="text-lg text-kuromi">
+            class="text-chapped">
                 SEWING
             </a>
         </div>
-        <div>
+        <div class="padding">
             <a href="/fashion/inspo" 
-            class="text-lg text-pictochat link-active">
+            class="text-pictochat link-active">
                 INSPO
             </a>
         </div>

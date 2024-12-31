@@ -13,4 +13,9 @@ While I will still own a mixture of secondhand, new, and handmade pieces, I want
 1. &check; Buy comfy, soft undergarments (petticoat, bloomers, legwear)
 2. &check; Aquire a full coord (skirt, shoes, headwear, blouse)
 3. &check; Focus on cutsews, cardigans, accessories, and legwear to mix/match for more coordinates
-4. ~~Invest in~~ Sew more main pieces that match my wardrobe
+4. &check; ~~Invest in~~ Sew more main pieces that match my wardrobe
+
+# december 2024 update
+I did the thing!! I've updated my wardrobe using comfy, soft undergarments focusing on cutsews, cardigans, and accessories. I've also sewn quite a few pieces that I'm very proud of this year!
+
+For next year, I plan to focus more heavily on accessories like jewelry, shoes, and small garments like corsets. I want to pull in more gothic elements to my primarily oldschool wardrobe, as I find those are the ones that I end up wearing the most regularly.

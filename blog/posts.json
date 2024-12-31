@@ -1,4 +1,10 @@
 {
+    "cost-per-wear": {
+        "title": "Building a Wardrobe: Cost Per Wear",
+        "type": "lolita",
+        "excerpt": "Making better decisions when purchasing",
+        "plantedOn": "2024-12-18 22:39:00"
+    },
     "100-questions": {
         "title": "100 Lolita Questions",
         "type": "lolita",
@@ -7,18 +13,11 @@
         "updatedOn": "2024-02-29"
     },
     "building-a-wardrobe": {
-        "title": "Building a New Wardrobe From Scratch",
+        "title": "2024 Wardrobe Goals",
         "type": "lolita",
         "excerpt": "My experience restarting my lolita wardrobe from the ground up",
         "plantedOn": "2024-01-31 17:00:00",
-        "updatedOn": "2024-02-21"
-    },
-    "2024-lolita-goals": {
-        "title": "2024 Lolita Goals",
-        "type": "lolita",
-        "excerpt": "What I hope to do with my wardrobe in 2024",
-        "plantedOn": "2024-01-31 17:00:00",
-        "updatedOn": null
+        "updatedOn": "2024-12-18"
     },
     "what-to-draw": {
         "title": "What to Draw",

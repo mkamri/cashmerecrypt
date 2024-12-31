@@ -57,7 +57,7 @@
                 <strong>listening to:</strong> <a href="https://www.youtube.com/watch?v=YflLFN67d3k" target="_blank">jiluka | idola</a>
             </li>
             <li>
-                <strong>playing:</strong> <a href="https://tamagotchi-official.com/us/series/uni/" target="_blank">tamagotchi uni</a>
+                <strong>playing:</strong> twisted wonderland
             </li>
             <li>
                 <strong>reading:</strong> <a href="https://vvstore.jp/products/detail/335519" target="_blank">夢蝕のパレード</a> (Mushoku no Parade) - Yoh's Monochrome World
@@ -69,6 +69,12 @@
         <p>⊹°｡⋆｡°⊹</p>
         <h2>log</h2>
         <ul>
+            <li>
+                <strong>2024-12-19:</strong> added <a href="/blog/cost-per-wear">new blog post</a>
+            </li>
+            <li>
+                <strong>2024-12-17:</strong> added <a href="/fashion/wardrobe">wardrobe page</a>
+            </li>
             <li>
                 <strong>2024-12-1:</strong> added <a href="/fashion">new coord</a>
             </li>
