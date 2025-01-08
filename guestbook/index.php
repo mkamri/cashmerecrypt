@@ -55,6 +55,8 @@
                            maxlength="20" 
                            name="name"
                            required="required"
+                           autocorrect="off" 
+                           autocapitalize="none"
                            />
                 </label>
             </div>
@@ -64,6 +66,8 @@
                     <input type="text"
                            maxlength="20"
                            name="lastName"
+                           autocorrect="off" 
+                           autocapitalize="none"
                            />
                 </label>
             </div>
@@ -73,6 +77,8 @@
                     <input type="text"
                            maxlength="20"
                            name="phone"
+                           autocorrect="off" 
+                           autocapitalize="none"
                            />
                 </label>
             </div>
@@ -83,6 +89,8 @@
                         <input type="text" 
                             maxlength="258" 
                             name="email"
+                            autocorrect="off" 
+                            autocapitalize="none"
                             />
                     </label>
                     <span><em>Only the webmistress will see your email</em></span>
@@ -93,6 +101,8 @@
                         <input type="text"
                             maxlength="200"
                             name="siteURL"
+                            autocorrect="off" 
+                            autocapitalize="none"
                             />
                     </label>
                 </div>

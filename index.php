@@ -71,6 +71,9 @@
         <h2>log</h2>
         <ul>
             <li>
+                <strong>2025-01-08:</strong> added <a href="/guestbook">guestbook</a>
+            </li>
+            <li>
                 <strong>2025-01-07:</strong> added a piece to my <a href="/gallery">gallery</a>
             </li>
             <li>
