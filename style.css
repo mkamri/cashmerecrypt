@@ -166,6 +166,34 @@ button, input[type="submit"], input[type="reset"] {
 	outline: inherit;
 }
 
+button[type="submit"] {
+    display: inline-block;
+    width: min-content;
+    background-color: var(--bruised);
+    border: 3px solid var(--crypt);
+    color: var(--pictochat);
+    padding: 4px 10px;
+    font-family: 'Pixel Operator Mono Bold', monospace;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    transition: all .2s ease-in;
+}
+button[type="submit"]:hover {
+    background-color: var(--kuromi);
+}
+
+input[type="text"],
+textarea {
+    display: block;
+    width: 100%;
+    margin-top: 4px;
+}
+
+label {
+    display: block;
+    font-family: 'Pixel Operator Mono Bold', monospace;
+}
+
 header {
     background-color: var(--crypt);
     padding: 2rem;
@@ -290,6 +318,9 @@ nav div:not(:last-child) {
 .link-active {
     border-bottom: 5px solid var(--chapped);
 }
+.hidden {
+    display: none;
+}
 
 
 /**
@@ -387,6 +418,9 @@ img.scale-down {
 .mt-0 {
     margin-top: 0;
 }
+.mb-0 {
+    margin-bottom: 0;
+}
 
 .flex {
     display: flex;
@@ -396,6 +430,9 @@ img.scale-down {
 }
 .justify-center {
     justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
 }
 .items-center {
     align-items: center;

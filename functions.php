@@ -107,6 +107,89 @@ function log_server_activity()
     }
 }
 
+function create_guestbook_post($name, $email, $siteURL, $message)
+{
+
+    wh_log('guestbook has been posted');
+    $IPAddress= $_SERVER['REMOTE_ADDR'] ?? null;
+
+    $postExists = check_existing_guestbook_post($IPAddress, $message);
+    if($postExists)
+    {
+        return 'Oops! Looks like you already submitted this message. It has been sent to the webmistress for review and will appear on the site soon.';
+    }
+
+    try
+    {
+        $pdo = pdo_connect();
+        $sql = "INSERT INTO GuestbookPosts (Name, Email, SiteURL, Message, IPAddress) VALUES (?,?,?,?,?)";
+        $stmt= $pdo->prepare($sql);
+        $stmt->execute([$name, $email, $siteURL, $message, $IPAddress]);
+    }
+    catch (Exception $e)
+    {
+        wh_log($e->getMessage());
+        return 'Sorry, there\'s been an error saving your message. If you continue experiencing issues, please contact the webmistress at cashmerecrypt@pm.me.';
+    }
+
+    send_new_guestbook_email($name, $email, $siteURL, $message);
+
+    return 'Thanks for signing my guestbook! Your message has been sent to the webmistress for review.';
+}
+
+function send_new_guestbook_email($name, $email, $siteURL, $message)
+{
+    // Set email format to HTML
+    $subject = 'Someone signed your guestbook!';
+    $body    = '<h1>'.$name.' signed your guestbook!</h1><br><p><strong>Email: </strong>'.$email.'<br><strong>Site URL:</strong> '.$siteURL.'<br><strong>Message:</strong><br><br>'.nl2br($message).'</p>';
+    $to = NOTIFICATION_MAILADDRESS;
+
+    $headers = array(
+        'From' => ADMIN_MAILADDRESS,
+        'Reply-To' => ADMIN_MAILADDRESS,
+        'X-Mailer' => 'PHP/' . phpversion()
+    );
+    
+    mail($to, $subject, $message, $headers);
+}
+
+function check_existing_guestbook_post($IPAddress, $message)
+{
+    $arr = [];
+    $pdo = pdo_connect();
+    $sql = "
+        SELECT message
+        FROM GuestbookPosts
+        WHERE IPAddress = ? AND Message = ?
+    ";
+    $stmt= $pdo->prepare($sql);
+    $stmt->execute([$IPAddress, $message]);
+    if($stmt->fetchColumn())
+    {
+        return true;
+    }
+
+    return false;
+}
+
+function get_guestbook_posts()
+{
+    $arr = [];
+    $pdo = pdo_connect();
+    $sql = "
+        SELECT id, Name, SiteURL, Message, CreatedOn
+        FROM GuestbookPosts
+        WHERE StatusID = 1
+        ORDER BY CreatedOn desc
+    ";
+    $stmt = $pdo->query($sql);
+    while ($row = $stmt->fetch()) {
+        $arr[] = $row;
+    }
+
+    return $arr;
+}
+
 function getGuildActivity()
 {
     $arr = [];
