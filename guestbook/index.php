@@ -119,7 +119,10 @@
             <button type="submit">Submit</button>
         </form>
     </div>
-    <?php foreach($guestbookPosts as $post): ?>
+    <?php foreach($guestbookPosts as $post): 
+        $date = new DateTime($post['CreatedOn'], new DateTimeZone('UTC'));
+        $date->setTimezone(new DateTimeZone('America/New_York'));
+    ?>
         <div class="padding bg-ghost text-bruised">
             <p>⊹°｡⋆｡°⊹</p>
             <div class="flex justify-between flex-wrap">
@@ -127,7 +130,9 @@
                     <strong><?= $post['Name'] ?></strong>
                 </p>
                 <p class="mb-0">
-                    <strong><?= date('F j, Y @ g:i a', strtotime($post['CreatedOn'])) ?></strong>
+                    <strong>
+                        <?= $date->format('F j, Y @ g:i a') ?> EST
+                    </strong>
                 </p>
             </div>
             <?php if($post['SiteURL']): ?>
