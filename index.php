@@ -1,7 +1,7 @@
 <?php 
     include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php');
 ?>
-<div class="container grid">
+<div class="container grid" style="position: relative;">
     <section class="bg-chapped text-bruised padding">
         <p>⊹°｡⋆｡°⊹</p>
         <h2>welcome to the crypt</h2>
@@ -51,16 +51,16 @@
         <h2>status</h2>
         <ul>
             <li>
-                <strong>working on:</strong> site rebuild
+                <strong>working on:</strong> homepage illustrations
             </li>
             <li>
-                <strong>listening to:</strong> <a href="https://www.youtube.com/watch?v=YflLFN67d3k" target="_blank">jiluka | idola</a>
+                <strong>listening to:</strong> shiina ringo
             </li>
             <li>
-                <strong>playing:</strong> twisted wonderland
+                <strong>playing:</strong> elder scrolls iv: oblivion
             </li>
             <li>
-                <strong>reading:</strong> <a href="https://vvstore.jp/products/detail/335519" target="_blank">夢蝕のパレード</a> (Mushoku no Parade) - Yoh's Monochrome World
+                <strong>reading:</strong> nothing atm, library books pending...
             </li>
         </ul>
         <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
@@ -69,6 +69,9 @@
         <p>⊹°｡⋆｡°⊹</p>
         <h2>log</h2>
         <ul>
+            <li>
+                <strong>2025-01-07:</strong> added a piece to my <a href="/gallery">gallery</a>
+            </li>
             <li>
                 <strong>2024-12-31:</strong> added two new pieces to my <a href="/gallery">gallery</a>
             </li>
@@ -96,5 +99,10 @@
         </ul>
         <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
     </section>
+    <a href="/gallery">
+        <img src="/img/homepage/cashmere-medium.PNG"
+             style="position: absolute; bottom: -40px; right: -150px; width: 400px; height: 400px; margin-bottom: 2rem;"
+             />
+    </a>
 </div>
 <?php include($_SERVER["DOCUMENT_ROOT"].'/layout/footer.php'); ?>
