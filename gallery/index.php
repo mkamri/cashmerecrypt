@@ -1,4 +1,5 @@
 <?php 
+    $pageTitle = 'art gallery | cashmere crypt';
     include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php'); 
 
     // Get the content

@@ -1,4 +1,5 @@
 <?php 
+    $pageTitle = 'links | cashmere crypt';
     include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php'); 
 ?>
 <div class="container grid">

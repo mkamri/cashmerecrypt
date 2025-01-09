@@ -8,7 +8,7 @@
         <p>I'm <a class="text-bruised hover-bruised" href="/about">mika</a>, and this is my website. Here you will find my outfit pics, art projects, and general ramblings about j-fashion, my artistic process, and whatever else happens to interest me.</p>
         <p>I've been a human on the internet since I was around 8 years old, and I learned to code back in 4th grade. It was always my dream to have a cool personal website, back before social media had even been concieved of yet. I guess I'm killing two birds with one stone by getting away from my dreaded socials and also fulfilling my childhood dream of having a personal website (˶ᵔ ᵕ ᵔ˶)</p>
         <p>This site is eternally under construction, pardon the mess ˙ᵕ˙</p>
-        <p>Sign my <a href="/guestbook">guestbook</a> if you like! <3</p>
+        <p>Sign my <a href="/guestbook" class="text-pictochat bg-bruised">guestbook</a> if you like! <3</p>
         <p>⊹°｡⋆༺♱༻⋆｡°⊹</p>
     </section>
     <div class="grid grid-cols-2">

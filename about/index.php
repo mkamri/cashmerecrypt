@@ -1,4 +1,5 @@
 <?php 
+    $pageTitle = 'about me | cashmere crypt';
     include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php');
 
     $activity = getGuildActivity();

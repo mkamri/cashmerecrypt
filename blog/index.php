@@ -1,4 +1,5 @@
 <?php 
+    $pageTitle = 'blog | cashmere crypt';
     include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php'); 
 
     $postTypes = ['lolita', 'art'];

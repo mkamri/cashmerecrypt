@@ -11,7 +11,7 @@
     <link rel="icon" href="/img/favicon.gif" type="image/gif" />
     <link rel="author" href="/humans.txt" />
     <script type="text/javascript" src="/script.js"></script>
-    <title>ℭashmere ℭrypt</title>
+    <title><?= $pageTitle ?? 'ℭashmere ℭrypt' ?></title>
 </head>
 <body>
     <div id="container">

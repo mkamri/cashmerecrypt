@@ -1,4 +1,5 @@
 <?php 
+    $pageTitle = 'inspo | cashmere crypt';
     include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php');
 ?>
 <div class="grid">

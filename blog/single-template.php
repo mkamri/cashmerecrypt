@@ -1,9 +1,4 @@
 <?php 
-    include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php'); 
-
-    include($_SERVER["DOCUMENT_ROOT"].'/lib/Parsedown.php');
-    $Parsedown = new Parsedown();
-
     // Get the slug associated with the post
     $slugs = explode("/", parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH));
     $slug = $slugs[2];
@@ -12,6 +7,14 @@
     $content  = file_get_contents('content.md');
     $posts    = json_decode(file_get_contents($_SERVER["DOCUMENT_ROOT"].'/blog/posts.json'));
     $postData = $posts->{$slug};
+
+    $pageTitle = $postData->title.' | cashmere crypt';
+    include($_SERVER["DOCUMENT_ROOT"].'/layout/header.php'); 
+
+    include($_SERVER["DOCUMENT_ROOT"].'/lib/Parsedown.php');
+    $Parsedown = new Parsedown();
+
+
 
 ?>
 <div class="container bg-crypt blog-post">
